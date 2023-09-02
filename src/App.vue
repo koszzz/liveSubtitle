@@ -9,7 +9,7 @@ export default {
             choosedSong: 0,
             lyricIndex: 0,
             hind: false,
-            isUploaded: false
+            isUploaded: false,
         };
     },
     created() {
@@ -99,7 +99,7 @@ export default {
 }
 
 .ja {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP_', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +109,7 @@ export default {
 }
 
 .zh {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Noto Sans SC_', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
