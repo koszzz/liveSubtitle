@@ -96,11 +96,10 @@ export default {
     font-size: 50px;
     text-align: center;
     font-weight: 700;
-
 }
 
 .ja {
-    font-family: 'Noto Sans JP';
+    font-family: 'Noto Sans JP', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,7 +109,7 @@ export default {
 }
 
 .zh {
-    font-family: 'Noto Sans SC';
+    font-family: 'Noto Sans SC', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
