@@ -4,11 +4,11 @@
 
 ## 效果
 
-![直播用户端效果](https://pic.imgdb.cn/item/64f2ee08661c6c8e54c4348c.jpg?v=1)
+![直播用户端效果](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/1.jpg)
 
 > *直播用户端效果<sup>[1]</sup>*
 
-![控制台端效果](https://pic.imgdb.cn/item/64f2eed5661c6c8e54c49d89.jpg?v=1)
+![控制台端效果](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/2.jpg)
 
 > *直播控制台端效果*
 
@@ -74,7 +74,7 @@
 
 在上传完歌词JSON文件后，将会变为控制台页面（如下图）。
 
-![控制台](https://pic.imgdb.cn/item/64f2eed5661c6c8e54c49d89.jpg?v=1)
+![控制台](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/2.jpg)
 
 > 上部为歌词字幕，下部左侧为以当前歌词为第一项的歌词表，下部右侧为歌曲表。
 
@@ -90,7 +90,7 @@
 
 > 使用OBS Studio<sup>[3]</sup>演示
 
-![OBS画面](https://pic.imgdb.cn/item/64f2f7db661c6c8e54c64000.jpg?v=1)
+![OBS画面](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/3.jpg)
 
 将画面调整为上述**直播控制台端**布局，使得各窗口大小占屏幕宽高比例如下，并使Live Subtitle置于直播画面之上：
 
@@ -105,11 +105,11 @@
 
 为避免遮挡画面，需要将洋红色底色去除。
 
-![右键菜单](https://pic.imgdb.cn/item/64f2f93e661c6c8e54c669df.jpg?v=1)
+![右键菜单](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/4.jpg)
 
 1. 右键**字幕**来源，选择底部**滤镜**项。
 
-![选择色度键](https://pic.imgdb.cn/item/64f2fa2c661c6c8e54c6e2f1.jpg?v=1)
+![选择色度键](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/5.jpg)
 
 2. 点击左下角**+**，添加**色度键**效果滤镜。
 3. 右侧设置**关键色类型**为**自定义颜色**，**关键色**设置为**#a5469b**，**相似度**设置为**1**。
