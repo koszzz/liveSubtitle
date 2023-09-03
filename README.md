@@ -4,7 +4,7 @@
 
 ## 效果
 
-![直播用户端效果](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/1.jpg)
+![直播用户端效果](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/1.png)
 
 > *直播用户端效果<sup>[1]</sup>*
 
@@ -33,8 +33,8 @@
 
 ### 上传歌词
 
-> 不论使用的是部署在Github Pages上的客户端还是运行源代码，在进入控制台时都会被要求上传歌词JSON文件。
-> Live Subtitle使用JSON格式储存日文与中文歌词，格式如下：
+> 不论使用的是部署在Github Pages上的客户端还是运行源代码，在进入控制台时都会被要求上传歌词Json文件。
+> Live Subtitle使用Json格式储存日文与中文歌词，格式如下：
 
 ```json
 [
@@ -61,7 +61,7 @@
 
 | 键           | 类型   | 注解                                   |
 | ------------ | ------ | -------------------------------------- |
-| name         | String | 歌曲名，会被显示在控制台左侧“曲名”列。 |
+| name         | String | 歌曲名，会被显示在控制台右侧“曲名”列。 |
 | index        | Number | 当前歌曲的索引，自0递增。              |
 | lyrics       | Array  | 歌词列表。                             |
 | lyrics.zh    | String | 中文歌词。                             |
@@ -72,7 +72,7 @@
 
 ### 时间轴
 
-在上传完歌词JSON文件后，将会变为控制台页面（如下图）。
+在上传完歌词Json文件后，将会变为控制台页面（如下图）。
 
 ![控制台](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/2.jpg)
 
@@ -109,10 +109,10 @@
 
 1. 右键**字幕**来源，选择底部**滤镜**项。
 
-![选择色度键](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/5.jpg)
+![选择色度键](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/5.png)
 
 2. 点击左下角<b>+</b>，添加**色度键**效果滤镜。
-3. 右侧设置**关键色类型**为**自定义颜色**，**关键色**设置为<b>#a5469b</b>，**相似度**设置为**1**。
+3. 右侧设置**关键色类型**为**自定义颜色**，**关键色**设置为<b>#a5469b</b>，**相似度**设置为**70**。
 4. 保存并关闭
 
 ## 技术
@@ -128,7 +128,7 @@
 
 ## 注释
 
-1. 画面为QQ"Liella!"频道于2023年8月26日转播的**LoveLive!Superstar!! Liella! 4th LoveLive! Tour ～brand new Sparkle～**爱知 Day1场《ビギナーズRock!!》桜小路きな子 (CV. 鈴原希実)（后复现）。
+1. 画面为QQ"Liella!"频道于2023年8月27日转播的**LoveLive!Superstar!! Liella! 4th LoveLive! Tour ～brand new Sparkle～**爱知 Day2场《Free Flight》澁谷かのん (CV. 伊達さゆり)（后复现）。
 
 2. 歌词译者表如下：
 
