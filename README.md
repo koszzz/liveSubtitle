@@ -132,63 +132,66 @@
 
 2. 歌词译者表如下：
 
-   | 曲名                                | 翻译（或含听写）                     |
-   | ----------------------------------- | ------------------------------------ |
-   | Jump Into the New World             | Shibaです                            |
-   | Star宣言                            | bob球球1301                          |
-   | 自我介绍                            | 上善若水, yukiyuu                    |
-   | Blooming Dance! Dance!              | Shibaです                            |
-   | Killer Kyun☆                        | 依然洳雪                             |
-   | MIRACLE NEW STORY                   | 依然洳雪                             |
-   | 【Day1】幕间动画1                   | 上善若水, yukiyuu                    |
-   | 【Day2】幕间动画1                   | 上善若水, yukiyuu                    |
-   | 【Wien】Butterfly Wing              | 旁生魄w, bob球球1301                 |
-   | 【Wien】Edelstein                   | 五十嵐若葉, Sanry                    |
-   | 【Kinako】ビギナーズRock!!          | 依然洳雪                             |
-   | 【Ren】Midnight Rhapsody            | 依然洳雪                             |
-   | 【Keke】星屑クルージング            | Shibaです                            |
-   | 【Sumire】Starry Prayer             | 依然洳雪                             |
-   | 【Natsumi】Eyeをちょうだい          | 丹                                   |
-   | 【Mei】茜心                         | 上善若水                             |
-   | 【Shiki】ガラスボールリジェクション | 依然洳雪                             |
-   | 【Nako】君を想う花になる            | 上善若水                             |
-   | 【Kanon】Free Flight                | 依然洳雪                             |
-   | 幕间动画2                           | 上善若水, yukiyuu                    |
-   | 影遊び                              | 五十嵐若葉                           |
-   | Alternate                           | 五十嵐若葉                           |
-   | What a Wonderful Dream!!            | 葫芦又, Shibaです                    |
-   | 幕间动画3                           | 上善若水, yukiyuu                    |
-   | Hoshizora Monologue                 | Shibaです                            |
-   | Including you                       | Shibaです                            |
-   | 未来の音が聴こえる                  | Shibaです                            |
-   | Second Sparkle                      | Shibaです                            |
-   | 私のSymphony 2022Ver.               | 葫芦又                               |
-   | 幕间动画4                           | 上善若水, yukiyuu                    |
-   | Vitamin SUMMER!                     | bob球球1301                          |
-   | TO BE CONTINUED                     | Shibaです                            |
-   | UNIVERSE!!                          | Shibaです                            |
-   | 常夏☆サンシャイン                   | 葫芦又                               |
-   | Day1                                | Sanry                                |
-   | Nonfiction!!                        | 每次都被修改的小河                   |
-   | 追いかける夢の先で                  | Shibaです                            |
-   | Sing! Shine! Smile!                 | Shibaです                            |
-   | 名前呼びあうように                  | Shibaです                            |
-   | Unison                              | Shibaです                            |
-   | Chance Day, Chance Way!             | bob球球1301, Bilibili Macro Link字幕 |
-   | 水花的标志                          | 肝肝蜜柑, Sanry                      |
-   | 未来は風のように                    | 五十嵐若葉, Min_Zi_LRC               |
-   | 始まりは君の空                      | 葫芦又, N10000的小河                 |
-   | Dancing Heart La-Pa-Pa-Pa!          | 葫芦又, N10000的小河                 |
-   | Dreaming Energy                     | 葫芦又                               |
-   | Wish Song                           | 葫芦又                               |
-   | WE WILL!!                           | 旁生魄w                              |
-   | Starlight Prologue                  | 碘化亚金                             |
-   | Dream Rainbow                       | 七影蝶                               |
-   | Go!! Restart                        | 旁生魄w, bob球球1301, 五十嵐若葉     |
-   | Welcome to 僕らのセカイ             | bob球球1301                          |
-   | だから僕らは鳴らすんだ！            | 葫芦又, Sanry                        |
-   | Shooting Voice!!                    | 依然洳雪                             |
-   | Velour                              | 五十嵐若葉                           |
-   | 不可視なブルー                      | 五十嵐若葉                           |
+   | 曲名                                | 翻译（或含听写）                 |
+   | ----------------------------------- | -------------------------------- |
+   | Jump Into the New World             | Shibaです                        |
+   | Star宣言                            | bob1301                          |
+   | 自我介绍                            | 上善若水, No.10字幕组, yukiyuu   |
+   | Blooming Dance! Dance!              | Shibaです                        |
+   | Killer Kyun☆                        | 依然洳雪                         |
+   | MIRACLE NEW STORY                   | 依然洳雪                         |
+   | 【Day1】幕间动画1                   | 上善若水, yukiyuu                |
+   | 【Day2】幕间动画1                   | 上善若水, yukiyuu                |
+   | 【Wien】Butterfly Wing              | 旁生魄w, bob1301                 |
+   | 【Wien】Edelstein                   | 五十嵐若葉, Sanry                |
+   | 【Kinako】ビギナーズRock!!          | 依然洳雪                         |
+   | 【Ren】Midnight Rhapsody            | 依然洳雪                         |
+   | 【Keke】星屑クルージング            | Shibaです                        |
+   | 【Sumire】Starry Prayer             | 依然洳雪                         |
+   | 【Natsumi】Eyeをちょうだい          | 丹                               |
+   | 【Mei】茜心                         | 上善若水                         |
+   | 【Shiki】ガラスボールリジェクション | 依然洳雪                         |
+   | 【Nako】君を想う花になる            | 上善若水                         |
+   | 【Kanon】Free Flight                | 依然洳雪                         |
+   | 幕间动画2                           | 上善若水, yukiyuu                |
+   | A Little Love                       | bob1301                          |
+   | Dancing Raspberry                   | bob1301                          |
+   | What a Wonderful Dream!!            | 葫芦又, Shibaです                |
+   | 幕间动画3                           | 上善若水, yukiyuu                |
+   | Hoshizora Monologue                 | Shibaです                        |
+   | Including you                       | Shibaです                        |
+   | 未来の音が聴こえる                  | Shibaです                        |
+   | Second Sparkle                      | Shibaです                        |
+   | 私のSymphony 2022Ver.               | 葫芦又                           |
+   | 【Day1】幕间动画4                   | 上善若水, Liella!烧烤摊, yukiyuu |
+   | 【Day2】幕间动画4                   | 上善若水, Liella!烧烤摊, yukiyuu |
+   | 常夏☆サンシャイン                   | 葫芦又                           |
+   | Day1                                | Sanry                            |
+   | UNIVERSE!!                          | Shibaです                        |
+   | Vitamin SUMMER!                     | bob1301                          |
+   | TO BE CONTINUED                     | Shibaです                        |
+   | Nonfiction!!                        | 每次都被修改的小河               |
+   | 追いかける夢の先で                  | Shibaです                        |
+   | Sing! Shine! Smile!                 | Shibaです                        |
+   | 名前呼びあうように                  | Shibaです                        |
+   | Unison                              | Shibaです                        |
+   | Chance Day, Chance Way!             | bob1301, Bilibili Macro Link字幕 |
+   | 水花的标志                          | 肝肝蜜柑, Sanry                  |
+   | 未来は風のように                    | 五十嵐若葉, Min_Zi_LRC           |
+   | 始まりは君の空                      | 葫芦又, N10000的小河             |
+   | Dancing Heart La-Pa-Pa-Pa!          | 葫芦又, N10000的小河             |
+   | Dreaming Energy                     | 葫芦又                           |
+   | Wish Song                           | 葫芦又                           |
+   | WE WILL!!                           | 旁生魄w                          |
+   | Starlight Prologue                  | 碘化亚金                         |
+   | Dream Rainbow                       | 七影蝶                           |
+   | Go!! Restart                        | 旁生魄w, bob1301, 五十嵐若葉     |
+   | Welcome to 僕らのセカイ             | bob1301                          |
+   | だから僕らは鳴らすんだ！            | 葫芦又, Sanry                    |
+   | Shooting Voice!!                    | 依然洳雪                         |
+   | Velour                              | 五十嵐若葉                       |
+   | 不可視なブルー                      | 五十嵐若葉                       |
+   | 影遊び                              | 五十嵐若葉                       |
+   | Alternate                           | 五十嵐若葉                       |
 
 3. 演示使用OBS Studio 29.1.3 (64 bit)，与最新版本可能有所不同。
