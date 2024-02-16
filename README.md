@@ -1,197 +1,234 @@
-# Live Subtitle
+<a name="readme-top"></a>
 
-> 适用于固定字幕内容的直播（例如演唱会）的实时字幕
+<div align="center">
+<h3 align="center">Live Subtitle</h3>
+  <p align="center">
+    基于 ASS 字幕的直播实时字幕工具
+    <br />
+    适用于固定字幕内容的直播（例如演唱会）的实时字幕
+  </p>
+</div>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>目录</summary>
+  <ol>
+    <li>
+      <a href="#效果">效果</a>
+    </li>
+    <li>
+        <a href="#技术栈">技术栈</a>
+    </li>
+    <li>
+      <a href="#快速开始">快速开始</a>
+      <ul>
+        <li><a href="#前置条件">前置条件</a></li>
+        <li>
+            <a href="#安装">安装</a>
+        </li>
+        <li>
+            <a href="#使用">使用</a>
+            <ul>
+              <li><a href="#渲染端">渲染端</a></li>
+              <li><a href="#控制台">控制台</a></li>
+              <li><a href="#上传字幕">上传字幕</a></li>
+            </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#待解决问题">待解决问题</a></li>
+    <li><a href="#贡献">贡献</a></li>
+    <li><a href="#许可证">许可证</a></li>
+    <li><a href="#联系">联系</a></li>
+    <li><a href="#致谢">致谢</a></li>
+  </ol>
+</details>
+
+<!-- 效果 -->
 
 ## 效果
 
-![直播用户端效果](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/1.png)
+<video control="true" src = "docMedia/UNIVERSE!!.mp4"></video>
 
-> *直播用户端效果<sup>[1]</sup>*
+> UNIVERSE!!<br>直播录像（哔哩哔哩）：[BV1mp421R7cu](https://www.bilibili.com/video/BV1mp421R7cu/)
 
-![控制台端效果](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/2.jpg)
+项目基于 ASS，支持特效字幕。
 
-> *直播控制台端效果*
+支持大多数 SSA/ASS 功能（[libass](https://github.com/libass/libass) 所支持的一切功能）
 
-## 使用
+<p align="right">(<a href="#readme-top">回到顶端</a>)</p>
 
-### 运行控制台
+## 技术栈
 
-1. 使用部署在Github Pages上的客户端，可略过此步。
+-   [Javascript Subtitles Octopus](https://github.com/libass/JavascriptSubtitlesOctopus)
 
-   [https://koszzz.github.io/liveSubtitle](https://koszzz.github.io/liveSubtitle)
+-   [Socket.IO](https://socket.io/)
 
-2. 运行源代码
+-   [Express](https://expressjs.com/)
 
-   ```shell
-   git clone https://github.com/koszzz/liveSubtitle
-   cd liveSubtitle
-   npm install
-   npm run dev
-   ```
+<p align="right">(<a href="#readme-top">回到顶端</a>)</p>
 
-   服务将运行于[http://localhost:5173](http://localhost:5173)
+<!-- GETTING STARTED -->
 
-### 上传歌词
+## 快速开始
 
-> 不论使用的是部署在Github Pages上的客户端还是运行源代码，在进入控制台时都会被要求上传歌词Json文件。
-> Live Subtitle使用Json格式储存日文与中文歌词，格式如下：
+### 前置条件
 
-```json
-[
-    {
-        "name": "小星星",
-        "lyrics": [
-            {
-                "zh": "一闪一闪亮晶晶",
-            	"ja": "きらきら ひらる",
-                "index": 0
-            },
-            {
-                "zh": "满天都是小星星",
-                "ja": "おそらの ほしよ",
-                "index": 1
-            }
-        ],
-        "index": 0
-    }
-]
+-   node.js
+-   npm
+
+### 安装
+
+```sh
+# 克隆仓库
+git clone https://github.com/koszzz/liveSubtitle.git
+
+# 进入仓库
+cd liveSubtitle
+
+# 安装依赖
+npm install
+
+# 运行服务器
+node app.js
+# Server listening at http://localhost:3500
 ```
 
-以下是数组每项解释说明
+### 使用
 
-| 键           | 类型   | 注解                                   |
-| ------------ | ------ | -------------------------------------- |
-| name         | String | 歌曲名，会被显示在控制台右侧“曲名”列。 |
-| index        | Number | 当前歌曲的索引，自0递增。              |
-| lyrics       | Array  | 歌词列表。                             |
-| lyrics.zh    | String | 中文歌词。                             |
-| lyrics.ja    | String | 日文歌词。                             |
-| lyrics.index | Number | 当前歌词在当前歌曲中的索引，自0递增。  |
+#### 渲染端
 
-提供适用于**LoveLive!Superstar!! Liella! 4th LoveLive! Tour ～brand new Sparkle～**演唱会的[测试歌词文件](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/public/data.json)，附歌词译者表<sup>[2]</sup>。
+> 使用 OBS Studio 演示
 
-### 时间轴
+![OBS](docMedia/obs.png)
 
-在上传完歌词Json文件后，将会变为控制台页面（如下图）。
+1. 添加来源为 `浏览器`
+2. 将 URL 设置为 `http://localhost:3500/`
+3. 宽度设置为 1920，高度设置为 1080
+4. 将此来源置于画面最顶端，铺满画面
 
-![控制台](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/2.jpg)
+#### 控制台
 
-> 上部为歌词字幕，下部左侧为以当前歌词为第一项的歌词表，下部右侧为歌曲表。
+进入 `http://localhost:3500/admin`
 
-#### 操作
+![Console](docMedia/console.png)
 
-- 按下键盘**方向左键**可使歌词隐藏或显示。
-- 按下键盘**方向下键**可切换到下一句，并使歌词显示。
-- 点击右侧歌曲表中项，可将歌词切换至点击歌曲的第一条歌词，**不会变更**歌词的显示与否。
+**字幕选择**
+点选字幕列表中的项目，不会变更字幕的显示与否。
 
-- 点击左侧歌词表中项，可将歌词切换至点击歌词，**不会变更**歌词的显示与否。
+**字幕操作**
 
-### 推流
+-   按下键盘**方向左键**可使字幕隐藏或显示。
+-   按下键盘**方向下键**可切换到下一句，并使字幕显示。
+-   按下键盘**方向上键**可切换到上一句，并使字幕显示。
 
-> 使用OBS Studio<sup>[3]</sup>演示
+#### 上传字幕
 
-![OBS画面](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/3.jpg)
+1. 将`.ass`字幕存放于 `./assets/subtitles/`
+2. 配置`./assets/subtitles/config.json`
 
-将画面调整为上述**直播控制台端**布局，使得各窗口大小占屏幕宽高比例如下，并使Live Subtitle置于直播画面之上：
+```json
+{
+    // 所需字体，存放于./assets/fonts
+    "fonts": ["NotoSerifSC-Bold.otf", "NotoSerifJP-Bold.otf"],
+    "configs": [
+        {
+            "name": "字幕名称",
+            "file": ".ass字幕文件名称",
+            // 动画时间
+            "animationTime": {
+                "in": 500, // 从完全消失到完全出现的时间，毫秒
+                "out": 400 // 从完全出现到完全消失的时间，毫秒
+            }
+        }
+    ]
+}
+```
 
-| 窗口          | 宽（100%） | 高（100%） |
-| ------------- | ---------- | ---------- |
-| 直播画面      | 100%       | 100%       |
-| Live Subtitle | 100%       | <95%       |
+**字幕要求**
 
-在OBS中添加以上二窗口为来源，并使字幕置于直播画面之上。将直播窗口占满屏幕，将Live Subtitle窗口裁剪至只有字幕部分。
+-   每句字幕间不得有间隔
+-   每句字幕的进入与退出时间需固定
+-   每句字幕进入后需立马退出
 
-#### 抠像
+示例字幕文件见 [./assets/subtitles/](https://github.com/koszzz/liveSubtitle/tree/main/assets/subtitles)
 
-为避免遮挡画面，需要将洋红色底色去除。
+<p align="right">(<a href="#readme-top">回到顶端</a>)</p>
 
-![右键菜单](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/4.jpg)
+<!-- ROADMAP -->
 
-1. 右键**字幕**来源，选择底部**滤镜**项。
+## 待解决问题
 
-![选择色度键](https://raw.githubusercontent.com/koszzz/liveSubtitle/main/images/5.png)
+-   [ ] 优化控制台 UI
+-   [ ] 适配复杂特效
 
-2. 点击左下角<b>+</b>，添加**色度键**效果滤镜。
-3. 右侧设置**关键色类型**为**自定义颜色**，**关键色**设置为<b>#a5469b</b>，**相似度**设置为**70**。
-4. 保存并关闭
+查看 [Open Issues](https://github.com/koszzz/liveSubtitle/issues) 获取建议和已知问题的完整列表。
 
-## 技术
+<p align="right">(<a href="#readme-top">回到顶端</a>)</p>
 
-- [Vue.js](https://cn.vuejs.org/) 3.3.4
-- [Vite](https://cn.vitejs.dev/) 4.4.6
-- [Element Plus](https://element-plus.org/zh-CN/) 2.3.9
+<!-- CONTRIBUTING -->
 
-### 字体
+## 贡献
 
-- [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP) Bold
-- [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC) Bold
+贡献使开源社区成为学习、启发和创造的绝佳场所。 **非常感谢您所做的一切贡献**。
 
-## 注释
+如果您有更好的建议，请 Fork 该仓库并创建 Pull Request。 您也可以使用 Tag “enhancement” 打开 Issue。
 
-1. 画面为QQ"Liella!"频道于2023年8月27日转播的**LoveLive!Superstar!! Liella! 4th LoveLive! Tour ～brand new Sparkle～**爱知 Day2场《Free Flight》澁谷かのん (CV. 伊達さゆり)（后复现）。
+请不要忘记给此项目一个 Star！再次感谢！
 
-2. 歌词译者表如下：
+1. Fork 项目
+2. 创建您的功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交您的修改 (`git commit -m '加入了一些很棒的功能'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启一个 Pull Request
 
-   | 曲名                                | 翻译（或含听写）                 |
-   | ----------------------------------- | -------------------------------- |
-   | Jump Into the New World             | Shibaです                        |
-   | Star宣言                            | bob1301                          |
-   | 自我介绍                            | 上善若水, No.10字幕组, yukiyuu   |
-   | Blooming Dance! Dance!              | Shibaです                        |
-   | Killer Kyun☆                        | 依然洳雪                         |
-   | MIRACLE NEW STORY                   | 依然洳雪                         |
-   | 【Day1】幕间动画1                   | 上善若水, yukiyuu                |
-   | 【Day2】幕间动画1                   | 上善若水, yukiyuu                |
-   | 【Wien】Butterfly Wing              | 旁生魄w, bob1301                 |
-   | 【Wien】Edelstein                   | 五十嵐若葉, Sanry                |
-   | 【Kinako】ビギナーズRock!!          | 依然洳雪                         |
-   | 【Ren】Midnight Rhapsody            | 依然洳雪                         |
-   | 【Keke】星屑クルージング            | Shibaです                        |
-   | 【Sumire】Starry Prayer             | 依然洳雪                         |
-   | 【Natsumi】Eyeをちょうだい          | 丹                               |
-   | 【Mei】茜心                         | 上善若水                         |
-   | 【Shiki】ガラスボールリジェクション | 依然洳雪                         |
-   | 【Nako】君を想う花になる            | 上善若水                         |
-   | 【Kanon】Free Flight                | 依然洳雪                         |
-   | 幕间动画2                           | 上善若水, yukiyuu                |
-   | A Little Love                       | bob1301                          |
-   | Dancing Raspberry                   | bob1301                          |
-   | What a Wonderful Dream!!            | 葫芦又, Shibaです                |
-   | 幕间动画3                           | 上善若水, yukiyuu                |
-   | Hoshizora Monologue                 | Shibaです                        |
-   | Including you                       | Shibaです                        |
-   | 未来の音が聴こえる                  | Shibaです                        |
-   | Second Sparkle                      | Shibaです                        |
-   | 私のSymphony 2022Ver.               | 葫芦又                           |
-   | 【Day1】幕间动画4                   | 上善若水, Liella!烧烤摊, yukiyuu |
-   | 【Day2】幕间动画4                   | 上善若水, Liella!烧烤摊, yukiyuu |
-   | 常夏☆サンシャイン                   | 葫芦又                           |
-   | Day1                                | Sanry                            |
-   | UNIVERSE!!                          | Shibaです                        |
-   | Vitamin SUMMER!                     | bob1301                          |
-   | TO BE CONTINUED                     | Shibaです                        |
-   | Nonfiction!!                        | 每次都被修改的小河               |
-   | 追いかける夢の先で                  | Shibaです                        |
-   | Sing! Shine! Smile!                 | Shibaです                        |
-   | 名前呼びあうように                  | Shibaです                        |
-   | Unison                              | Shibaです                        |
-   | Chance Day, Chance Way!             | bob1301, Bilibili Macro Link字幕 |
-   | 水花的标志                          | 肝肝蜜柑, Sanry                  |
-   | 未来は風のように                    | 五十嵐若葉, Min_Zi_LRC           |
-   | 始まりは君の空                      | 葫芦又, N10000的小河             |
-   | Dancing Heart La-Pa-Pa-Pa!          | 葫芦又, N10000的小河             |
-   | Dreaming Energy                     | 葫芦又                           |
-   | Wish Song                           | 葫芦又                           |
-   | WE WILL!!                           | 旁生魄w                          |
-   | Starlight Prologue                  | 碘化亚金                         |
-   | Dream Rainbow                       | 七影蝶                           |
-   | Go!! Restart                        | 旁生魄w, bob1301, 五十嵐若葉     |
-   | Welcome to 僕らのセカイ             | bob1301                          |
-   | だから僕らは鳴らすんだ！            | 葫芦又, Sanry                    |
-   | Shooting Voice!!                    | 依然洳雪                         |
-   | Velour                              | 五十嵐若葉                       |
-   | 不可視なブルー                      | 五十嵐若葉                       |
-   | 影遊び                              | 五十嵐若葉                       |
-   | Alternate                           | 五十嵐若葉                       |
+<p align="right">(<a href="#readme-top">回到顶端</a>)</p>
 
-3. 演示使用OBS Studio 29.1.3 (64 bit)，与最新版本可能有所不同。
+<!-- LICENSE -->
+
+## 许可证
+
+以 MIT 协议开源。查看 [`LICENSE`](LICENSE) 以获取更多信息。
+
+<p align="right">(<a href="#readme-top">回到顶端</a>)</p>
+
+<!-- CONTACT -->
+
+## 联系
+
+项目地址: [https://github.com/koszzz/liveSubtitle](https://github.com/koszzz/liveSubtitle)
+
+在[爱发电](https://afdian.net/a/kyruui)支持我
+
+<a href="https://afdian.net/a/kyruui"><img title="" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="200px 200px" width="100"></a>
+
+<p align="right">(<a href="#readme-top">回到顶端</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## 致谢
+
+-   [依然洳雪](https://space.bilibili.com/13184888)
+-   [QQ 频道【Liella!】](https://pd.qq.com/s/7nucz4r4z)
+
+<p align="right">(<a href="#readme-top">回到顶端</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/koszzz/liveSubtitle.svg?style=for-the-badge
+[contributors-url]: https://github.com/koszzz/liveSubtitle/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/koszzz/liveSubtitle.svg?style=for-the-badge
+[forks-url]: https://github.com/koszzz/liveSubtitle/network/members
+[stars-shield]: https://img.shields.io/github/stars/koszzz/liveSubtitle.svg?style=for-the-badge
+[stars-url]: https://github.com/koszzz/liveSubtitle/stargazers
+[issues-shield]: https://img.shields.io/github/issues/koszzz/liveSubtitle.svg?style=for-the-badge
+[issues-url]: https://github.com/koszzz/liveSubtitle/issues
+[license-shield]: https://img.shields.io/github/license/koszzz/liveSubtitle.svg?style=for-the-badge
+[license-url]: https://github.com/koszzz/liveSubtitle/blob/master/LICENSE

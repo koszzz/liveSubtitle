@@ -1,0 +1,29 @@
+/**
+* @file 用于Liella! 5th LoveLive!的字幕颜色对照表，颜色为提高辨识度相对于应援色经过调整。
+* @author Kiyoshi(kiyoshi.kusunoki@gmail.com)
+*/
+
+Liella
+#A5469B
+Kanon
+#FF7F27
+Keke
+#3FE0D1
+Chisato
+#FF6E90
+Sumire
+#6DD95E
+Ren
+#0000A0
+Kinako
+#CFC534
+Mei
+#FF3535
+Shiki
+#6FDDAA
+Natsumi
+#FF51C4
+Margarete
+#D895F0
+Tomari
+#4CD2E2

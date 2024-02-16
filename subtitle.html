@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Live Subtitle</title>
+        <script src="./assets/js/subtitles-octopus/subtitles-octopus.js"></script>
+        <script src="https://cdn.socket.io/4.7.3/socket.io.min.js"></script>
+        <style>
+            #debugText {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                font-size: xx-large;
+                color: blue;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="test" width="1920" height="1080"></canvas>
+        <div id="debugText"></div>
+        <link
+            href="https://vjs.zencdn.net/7.5.5/video-js.css"
+            rel="stylesheet" />
+        <script src="https://vjs.zencdn.net/7.5.5/video.js"></script>
+        <script>
+            let time = 0;
+            let hide = true;
+            let animationTime;
+            let eachTime;
+            let index;
+
+            let configs = {};
+            let fonts = [];
+            let subtitleIndex = 0;
+
+            async function toTime(targetTime) {
+                return new Promise((resolve, reject) => {
+                    let basicTime = new Date().getTime();
+                    function tick() {
+                        const elapsed = Math.floor(
+                            Math.min(
+                                Math.abs(new Date().getTime() - basicTime),
+                                Math.abs(targetTime - time)
+                            )
+                        );
+                        console.log(elapsed);
+                        basicTime = new Date().getTime();
+                        time += targetTime - time > 0 ? elapsed : -elapsed;
+                        window.octopusInstance.setCurrentTime(time / 1000);
+                        document.getElementById(
+                            "debugText"
+                        ).innerHTML = `time: ${time / 1000}`;
+                        const difference = Math.abs(targetTime - time);
+                        if (difference > 0) {
+                            requestAnimationFrame(tick);
+                        } else {
+                            resolve();
+                        }
+                    }
+                    const difference = Math.abs(targetTime - time);
+                    if (difference > 0) {
+                        requestAnimationFrame(tick);
+                    }
+                });
+            }
+
+            fetch("/assets/subtitles/config.json")
+                .then((data) => data.json())
+                .then((data) => {
+                    configs = data.configs;
+                    fonts = data.fonts;
+                })
+                .then(() => {
+                    init();
+                    const options = {
+                        canvas: document.getElementById("test"),
+                        subUrl:
+                            "/assets/subtitles/" + configs[subtitleIndex].file,
+                        fonts: fonts.map((i) => "/assets/fonts/" + i),
+                        workerUrl:
+                            "./assets/js/subtitles-octopus/subtitles-octopus-worker.js",
+                        debug: true,
+                    };
+                    window.octopusInstance = new SubtitlesOctopus(options);
+                    window.octopusInstance.setCurrentTime(time / 1000);
+                });
+
+            function init() {
+                animationTime = configs[subtitleIndex].animationTime;
+                eachTime = animationTime.in + animationTime.out;
+                index = -1;
+                hide = true;
+                time = 0;
+            }
+
+            async function next() {
+                await goin(index + 1);
+                hide = false;
+                return index;
+            }
+
+            async function goin(_index) {
+                if (_index > 0 && !hide) {
+                    await _hide(index);
+                }
+                index = _index;
+                time = _index * eachTime;
+                toTime(_index * eachTime + animationTime.in);
+            }
+
+            async function _hide() {
+                if (hide) {
+                    goin(index);
+                    hide = false;
+                    return;
+                }
+                time = index * eachTime + animationTime.in;
+                await toTime((index + 1) * eachTime);
+                hide = true;
+            }
+
+            const socket = io();
+            socket.on("set", async (settings) => {
+                if (
+                    typeof settings.subtitleIndex == "number" &&
+                    settings.subtitleIndex !== subtitleIndex
+                ) {
+                    subtitleIndex = settings.subtitleIndex;
+                    init();
+                    window.octopusInstance.setCurrentTime(0);
+                    window.octopusInstance.setTrackByUrl(
+                        "/assets/subtitles/" + configs[subtitleIndex].file
+                    );
+                    return;
+                }
+                if (settings.step == "next") {
+                    next();
+                } else if (settings.step == "hide") {
+                    _hide();
+                } else if (settings.step == "to") {
+                    await goin(settings.index);
+                    hide = false;
+                }
+            });
+        </script>
+    </body>
+</html>
