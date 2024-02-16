@@ -54,7 +54,7 @@
 
 ## 效果
 
-<video control="true" src = "docMedia/UNIVERSE!!.mp4"></video>
+![UNIVERSE!!](docMedia/UNIVERSE!!.gif)
 
 > UNIVERSE!!<br>直播录像（哔哩哔哩）：[BV1mp421R7cu](https://www.bilibili.com/video/BV1mp421R7cu/)
 
