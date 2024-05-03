@@ -19,110 +19,6 @@
     ],
     "configs": [
         {
-            "name": "What a Wonderful Dream!!",
-            "file": "What a Wonderful Dream!!.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "影遊び",
-            "file": "影遊び.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "オルタネイト",
-            "file": "オルタネイト.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "全力Riot",
-            "file": "全力Riot.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Distortion",
-            "file": "Distortion.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "不可視なブルー",
-            "file": "不可視なブルー.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "ベロア",
-            "file": "ベロア.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "カメリアの囁き",
-            "file": "カメリアの囁き.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "ニュートラル",
-            "file": "ニュートラル.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Dancing Raspberry",
-            "file": "Dancing Raspberry.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "A Little Love",
-            "file": "A Little Love.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Jellyfish",
-            "file": "Jellyfish.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Thank you Good morning",
-            "file": "Thank you Good morning.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
             "name": "Starlight Prologue",
             "file": "Starlight Prologue.ass",
             "animationTime": {
@@ -227,6 +123,62 @@
             }
         },
         {
+            "name": "ベロア",
+            "file": "ベロア.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Dancing Raspberry",
+            "file": "Dancing Raspberry.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "オルタネイト",
+            "file": "オルタネイト.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "不可視なブルー",
+            "file": "不可視なブルー.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "A Little Love",
+            "file": "A Little Love.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "影遊び",
+            "file": "影遊び.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "anime1",
+            "file": "anime1.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
             "name": "FANTASTiC",
             "file": "FANTASTiC.ass",
             "animationTime": {
@@ -280,6 +232,22 @@
             "animationTime": {
                 "in": 500,
                 "out": 400
+            }
+        },
+        {
+            "name": "anime2",
+            "file": "anime2.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "anime2Day2",
+            "file": "anime2Day2.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
             }
         },
         {
@@ -389,6 +357,14 @@
         {
             "name": "形のない心と心 名前呼びあうように",
             "file": "名前呼びあうように.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "What a Wonderful Dream!!",
+            "file": "What a Wonderful Dream!!.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200

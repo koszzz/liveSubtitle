@@ -5,7 +5,7 @@
  * @author Kiyoshi(kiyoshi.kusunoki@gmail.com)
  */
 function main() {
-    Array.from(document.getElementsByClassName("Lyrics_box")[0].children)
+    return Array.from(document.getElementsByClassName("Lyrics_box")[0].children)
         .filter((i) => Array.from(i.classList).includes("Lyrics_line"))
         .map((i) => {
             const children = Array.from(i.children);
