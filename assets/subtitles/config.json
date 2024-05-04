@@ -19,24 +19,96 @@
     ],
     "configs": [
         {
-            "name": "What a Wonderful Dream!!",
-            "file": "What a Wonderful Dream!!.ass",
+            "name": "未来は風のように",
+            "file": "未来は風のように.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "影遊び",
-            "file": "影遊び.ass",
+            "name": "Prime Adventure",
+            "file": "Prime Adventure.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "オルタネイト",
-            "file": "オルタネイト.ass",
+            "name": "幕间动画",
+            "file": "幕间动画.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "幕间动画Day2",
+            "file": "幕间动画Day2.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "ヒロインズ☆ランウェイ",
+            "file": "ヒロインズ☆ランウェイ.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "みてろ！",
+            "file": "みてろ！.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Starry Prayer",
+            "file": "Starry Prayer.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "茜心",
+            "file": "茜心.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "青空を待ってる",
+            "file": "青空を待ってる.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "心キラララ",
+            "file": "心キラララ.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "GOING UP",
+            "file": "GOING UP.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Free Flight",
+            "file": "Free Flight.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -51,8 +123,40 @@
             }
         },
         {
+            "name": "オルタネイト",
+            "file": "オルタネイト.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "揺らぐわ",
+            "file": "揺らぐわ.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "影遊び",
+            "file": "影遊び.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
             "name": "Distortion",
             "file": "Distortion.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "What a Wonderful Dream!!",
+            "file": "What a Wonderful Dream!!.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -307,14 +411,6 @@
             }
         },
         {
-            "name": "未来は風のように",
-            "file": "未来は風のように.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
             "name": "君と出会い　君と笑い　瞬きの先へ",
             "file": "瞬きの先へ.ass",
             "animationTime": {
@@ -443,14 +539,6 @@
             }
         },
         {
-            "name": "揺らぐわ",
-            "file": "揺らぐわ.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
             "name": "色づいて透明",
             "file": "色づいて透明.ass",
             "animationTime": {
@@ -469,22 +557,6 @@
         {
             "name": "未来予報ハレルヤ！",
             "file": "未来予報ハレルヤ！.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "GOING UP",
-            "file": "GOING UP.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "心キラララ",
-            "file": "心キラララ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
