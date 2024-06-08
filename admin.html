@@ -108,12 +108,15 @@
                     arguments.callee.caller.arguments[0];
                 if (e1 && e1.keyCode == 40) {
                     // 按下方向下键
+                    event.preventDefault();
                     next();
                 } else if (e1 && e1.keyCode == 37) {
+                    event.preventDefault();
                     // 按下方向左键
                     hide();
                 } else if (e1 && e1.keyCode == 38) {
                     // 按下方向上键
+                    event.preventDefault();
                     to();
                 }
             };

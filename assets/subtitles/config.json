@@ -35,6 +35,14 @@
             }
         },
         {
+            "name": "【Kale】幕间动画",
+            "file": "kale 幕间动画.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
             "name": "【Keke】心跳在跃动",
             "file": "Oh！Ready Steady Positive.ass",
             "animationTime": {

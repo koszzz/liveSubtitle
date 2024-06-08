@@ -88,7 +88,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\
         // }
         const inTime = secondsToTime((i / 2) * eachTime + add);
         const outTime = secondsToTime((i / 2 + 1) * eachTime + add);
-        result += `Dialogue: 0,${inTime},${outTime},日文-Margarete,,0,0,0,,${ja}\nDialogue: 0,${inTime},${outTime},中文-Margarete,,0,0,0,,${zh}\n`;
+        result += `Dialogue: 0,${inTime},${outTime},中文-,,0,0,0,,${ja}\nDialogue: 0,${inTime},${outTime},日文-,,0,0,0,,${zh}\n`;
     }
     return result;
 }
