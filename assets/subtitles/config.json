@@ -43,6 +43,14 @@
             }
         },
         {
+            "name": "【Kale】幕间动画 Day2",
+            "file": "kale 幕间动画 Day2.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
             "name": "【Keke】心跳在跃动",
             "file": "Oh！Ready Steady Positive.ass",
             "animationTime": {
@@ -133,6 +141,14 @@
         {
             "name": "ニュートラル",
             "file": "ニュートラル.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "色づいて透明",
+            "file": "色づいて透明.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -621,14 +637,6 @@
         {
             "name": "Go!! リスタート",
             "file": "Go!! リスタート.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "色づいて透明",
-            "file": "色づいて透明.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
