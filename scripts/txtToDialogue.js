@@ -63,8 +63,8 @@ Style: 日文-Chisato,Tsukushi A Round Gothic,65,&H00FFFFFF,&H000000FF,&H00906EF
 Style: 中文-Chisato,FZFW ZhuZi A YuanS,54,&H00FFFFFF,&H000000FF,&H00906EFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,5,2,2,35,35,20,1
 Style: 日文-Sumire,Tsukushi A Round Gothic,65,&H00FFFFFF,&H000000FF,&H00409C4B,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,4,2,8,35,35,20,1
 Style: 中文-Sumire,FZFW ZhuZi A YuanS,54,&H00FFFFFF,&H000000FF,&H00409C4B,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,5,2,2,35,35,20,1
-Style: 日文-Kinako,Tsukushi A Round Gothic,65,&H00FFFFFF,&H000000FF,&H0034C5CF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,4,2,8,35,35,20,1
-Style: 中文-Kinako,FZFW ZhuZi A YuanS,54,&H00FFFFFF,&H000000FF,&H0034C5CF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,5,2,2,35,35,20,1
+Style: 日文-Kinako,Tsukushi A Round Gothic,65,&H00FFFFFF,&H000000FF,&H0029A2AB,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,4,2,8,35,35,20,1
+Style: 中文-Kinako,FZFW ZhuZi A YuanS,54,&H00FFFFFF,&H000000FF,&H0029A2AB,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,5,2,2,35,35,20,1
 Style: 日文-Mei,Tsukushi A Round Gothic,65,&H00FFFFFF,&H000000FF,&H003535FF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,4,2,8,35,35,20,1
 Style: 中文-Mei,FZFW ZhuZi A YuanS,54,&H00FFFFFF,&H000000FF,&H003535FF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,5,2,2,35,35,20,1
 Style: 日文-Shiki,Tsukushi A Round Gothic,65,&H00FFFFFF,&H000000FF,&H009BB07F,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,4,2,8,35,35,20,1
@@ -88,7 +88,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\
         // }
         const inTime = secondsToTime((i / 2) * eachTime + add);
         const outTime = secondsToTime((i / 2 + 1) * eachTime + add);
-        result += `Dialogue: 0,${inTime},${outTime},中文-,,0,0,0,,${ja}\nDialogue: 0,${inTime},${outTime},日文-,,0,0,0,,${zh}\n`;
+        result += `Dialogue: 0,${inTime},${outTime},日文-Natsumi,,0,0,0,,${ja}\nDialogue: 0,${inTime},${outTime},中文-Natsumi,,0,0,0,,${zh}\n`;
     }
     return result;
 }
