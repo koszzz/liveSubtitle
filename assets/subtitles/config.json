@@ -20,15 +20,23 @@
     "configs": [
         {
             "name": "未来は風のように",
-            "file": "未来は風のように.ass",
+            "file": "未来は風のように/未来は風のように.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "5ync Prime Adventure",
-            "file": "Prime Adventure 5ync.ass",
+            "name": "【5yncri5e!】プライム・アドベンチャー",
+            "file": "リエラのうた2/プライム・アドベンチャー 5yncri5e!.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "5yncri5e! Live&FMT 大阪 幕间动画 Day1",
+            "file": "幕间动画/5yncri5e! Live&FMT 大阪 幕间动画 Day1.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -36,7 +44,7 @@
         },
         {
             "name": "【Chisato】勇気のカケラ",
-            "file": "勇気のカケラ.ass",
+            "file": "电视动画第一季BD特装限定版特典曲/勇気のカケラ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -44,7 +52,7 @@
         },
         {
             "name": "【Chisato】Flyer's High",
-            "file": "Flyer's High.ass",
+            "file": "What a Wonderful Dream!!/Flyer's High.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -52,7 +60,7 @@
         },
         {
             "name": "【Chisato】君を想う花になる",
-            "file": "君を想う花になる.ass",
+            "file": "Second Sparkle/君を想う花になる.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -60,7 +68,7 @@
         },
         {
             "name": "【Kinako】ビギナーズRock!!",
-            "file": "ビギナーズRock!!.ass",
+            "file": "Second Sparkle/ビギナーズRock!!.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -68,7 +76,7 @@
         },
         {
             "name": "【Shiki】ガラスボールリジェクション",
-            "file": "ガラスボールリジェクション.ass",
+            "file": "Second Sparkle/ガラスボールリジェクション.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -76,7 +84,7 @@
         },
         {
             "name": "【Natsumi】Eyeをちょうだい",
-            "file": "Eyeをちょうだい.ass",
+            "file": "Second Sparkle/Eyeをちょうだい.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -84,7 +92,7 @@
         },
         {
             "name": "Dancing Raspberry",
-            "file": "Dancing Raspberry.ass",
+            "file": "Jump Into the New World/Dancing Raspberry.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -92,7 +100,7 @@
         },
         {
             "name": "A Little Love",
-            "file": "A Little Love.ass",
+            "file": "Jump Into the New World/A Little Love.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -100,7 +108,7 @@
         },
         {
             "name": "Jellyfish",
-            "file": "Jellyfish.ass",
+            "file": "Jellyfish/Jellyfish.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -108,367 +116,7 @@
         },
         {
             "name": "Thank you Good morning",
-            "file": "Thank you Good morning.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "What a Wonderful Dream!!",
-            "file": "What a Wonderful Dream!!.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Starlight Prologue",
-            "file": "Starlight Prologue.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "MIRACLE NEW STORY",
-            "file": "MIRACLE NEW STORY.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "Tiny Stars",
-            "file": "Tiny Stars.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Welcome to 僕らのセカイ",
-            "file": "Welcome to 僕らのセカイ.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "バイバイしちゃえば！？",
-            "file": "バイバイしちゃえば！？.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Blooming Dance！Dance！",
-            "file": "Blooming Dance！Dance！.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "1.2.3！",
-            "file": "1.2.3！.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "いつだってすぐそばでキミが笑ってる 変わらないすべて",
-            "file": "変わらないすべて.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "ぐるぐる　回るよ！Future 探して！Future",
-            "file": "探して！Future.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "ちょっと！絶対こっちがいいんだってば！ HAPPY TO DO WA!",
-            "file": "HAPPY TO DO WA!.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "トゥ トゥ トゥ！",
-            "file": "トゥ トゥ トゥ！.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "クレッシェンドゆ・ら",
-            "file": "クレッシェンドゆ・ら.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "その胸で瞬くの Stella!",
-            "file": "Stella!.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "FANTASTiC",
-            "file": "FANTASTiC.ass",
-            "animationTime": {
-                "in": 800,
-                "out": 400
-            }
-        },
-        {
-            "name": "Day1",
-            "file": "Day1.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "ノンフィクション",
-            "file": "ノンフィクション.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Jump Into the New World",
-            "file": "Jump Into the New World.ass",
-            "animationTime": {
-                "in": 800,
-                "out": 400
-            }
-        },
-        {
-            "name": "Sing！Shine！Smile！",
-            "file": "Sing！Shine！Smile！.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "そう出会った日 感じてた Wish Song",
-            "file": "Wish Song.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "シェキラ",
-            "file": "シェキラ.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "START!! True dreams",
-            "file": "START!! True dreams.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "カレンダーずっと睨んでるんだ TO BE CONTINUED",
-            "file": "TO BE CONTINUED.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "UNIVERSE!!",
-            "file": "UNIVERSE!!.ass",
-            "animationTime": {
-                "in": 800,
-                "out": 400
-            }
-        },
-        {
-            "name": "君と出会い　君と笑い　瞬きの先へ",
-            "file": "瞬きの先へ.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "私のSymphony ～2023 Ver.～",
-            "file": "私のSymphony ～2023 Ver.～.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "始まりは君の空",
-            "file": "始まりは君の空.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "拍手歌 だから僕らは鳴らすんだ！",
-            "file": "だから僕らは鳴らすんだ！.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "Dreaming Energy",
-            "file": "Dreaming Energy.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "Dancing Heart La-Pa-Pa-Pa!",
-            "file": "Dancing Heart La-Pa-Pa-Pa!.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "Hoshizora Monologue",
-            "file": "Hoshizora Monologue.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "ユニゾン",
-            "file": "ユニゾン.ass",
-            "animationTime": {
-                "in": 500,
-                "out": 400
-            }
-        },
-        {
-            "name": "君がくれたメロディ 未来の音が聴こえる",
-            "file": "未来の音が聴こえる.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "形のない心と心 名前呼びあうように",
-            "file": "名前呼びあうように.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "この街でいまキミと",
-            "file": "この街でいまキミと.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "スター宣言",
-            "file": "スター宣言.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "WE WILL!!",
-            "file": "WE WILL!!.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "追いかける夢の先で",
-            "file": "追いかける夢の先で.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "水しぶきのサイン",
-            "file": "水しぶきのサイン.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Go!! リスタート",
-            "file": "Go!! リスタート.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Dream Rainbow",
-            "file": "Dream Rainbow.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "未来予報ハレルヤ！",
-            "file": "未来予報ハレルヤ！.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Shooting Voice!!",
-            "file": "Shooting Voice!!.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "Second Sparkle",
-            "file": "Second Sparkle.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "キラーキューン☆",
-            "file": "キラーキューン☆.ass",
+            "file": "Jellyfish/Thank you Good morning.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -476,7 +124,479 @@
         },
         {
             "name": "POP TALKING",
-            "file": "POP TALKING.ass",
+            "file": "ビタミンSUMMER！／Chance Day, Chance Way！/POP TALKING.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "What a Wonderful Dream!!",
+            "file": "What a Wonderful Dream!!/What a Wonderful Dream!!.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌】Anniversary",
+            "file": "リエラのうた/Anniversary.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌】Dears",
+            "file": "リエラのうた/Dears.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌】Departure",
+            "file": "リエラのうた/Departure.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌】Memories",
+            "file": "リエラのうた/Memories.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌】Message",
+            "file": "リエラのうた/Message.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌】Primary",
+            "file": "リエラのうた/Primary.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌】Ringing!",
+            "file": "リエラのうた/Ringing!.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌2】Dreamer Coaster",
+            "file": "リエラのうた2/Dreamer Coaster.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌2】エンドレスサーキット",
+            "file": "リエラのうた2/エンドレスサーキット.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌2】迷宮讃歌",
+            "file": "リエラのうた2/迷宮讃歌.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌2】パレードはいつも",
+            "file": "リエラのうた2/パレードはいつも.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌2】駆けるメリーゴーランド",
+            "file": "リエラのうた2/駆けるメリーゴーランド.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Liella!之歌2】Time to go",
+            "file": "リエラのうた2/Time to go.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Starlight Prologue",
+            "file": "ノンフィクション!!／Starlight Prologue/Starlight Prologue.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "MIRACLE NEW STORY",
+            "file": "MIRACLE NEW STORY/MIRACLE NEW STORY.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "Tiny Stars",
+            "file": "未来予報ハレルヤ！／Tiny Stars/Tiny Stars.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Welcome to 僕らのセカイ",
+            "file": "Welcome to 僕らのセカイ／Go!! リスタート/Welcome to 僕らのセカイ.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "バイバイしちゃえば！？",
+            "file": "常夏☆サンシャイン／Wish Song/バイバイしちゃえば！？.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Blooming Dance！Dance！",
+            "file": "电视动画第二季BD特装限定版特典曲/Blooming Dance！Dance！.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "1.2.3！",
+            "file": "未来予報ハレルヤ！／Tiny Stars/1.2.3！.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "変わらないすべて",
+            "file": "电视动画第一季BD全卷购入特典曲/変わらないすべて.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "探して！Future",
+            "file": "电视动画第一季BD全卷购入特典曲/探して！Future.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "HAPPY TO DO WA!",
+            "file": "电视动画第一季BD全卷购入特典曲/HAPPY TO DO WA!.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "トゥ トゥ トゥ！",
+            "file": "电视动画第一季BD特装限定版特典曲/トゥ トゥ トゥ！.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "クレッシェンドゆ・ら",
+            "file": "电视动画第一季BD全卷购入特典曲/クレッシェンドゆ・ら.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Stella!",
+            "file": "电视动画第一季BD全卷购入特典曲/Stella!.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "FANTASTiC",
+            "file": "シェキラ☆☆☆/FANTASTiC.ass",
+            "animationTime": {
+                "in": 800,
+                "out": 400
+            }
+        },
+        {
+            "name": "Day1",
+            "file": "ノンフィクション!!／Starlight Prologue/Day1.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "ノンフィクション",
+            "file": "ノンフィクション!!／Starlight Prologue/ノンフィクション.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Jump Into the New World",
+            "file": "Jump Into the New World/Jump Into the New World.ass",
+            "animationTime": {
+                "in": 800,
+                "out": 400
+            }
+        },
+        {
+            "name": "Sing！Shine！Smile！",
+            "file": "Sing！Shine！Smile！／未来の音が聴こえる/Sing！Shine！Smile！.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Wish Song",
+            "file": "常夏☆サンシャイン／Wish Song/Wish Song.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "シェキラ☆☆☆",
+            "file": "シェキラ☆☆☆/シェキラ☆☆☆.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "START!! True dreams",
+            "file": "START!! True dreams/START!! True dreams.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "TO BE CONTINUED",
+            "file": "Sing！Shine！Smile！／未来の音が聴こえる/TO BE CONTINUED.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "UNIVERSE!!",
+            "file": "ラブライブ！スーパースター!! Liella! CLUB CD SET 2023/UNIVERSE!!.ass",
+            "animationTime": {
+                "in": 800,
+                "out": 400
+            }
+        },
+        {
+            "name": "瞬きの先へ",
+            "file": "常夏☆サンシャイン／Wish Song/瞬きの先へ.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "常夏☆サンシャイン",
+            "file": "常夏☆サンシャイン／Wish Song/常夏☆サンシャイン.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "私のSymphony ～2023 Ver.～",
+            "file": "シェキラ☆☆☆/私のSymphony ～2023 Ver.～.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "始まりは君の空",
+            "file": "始まりは君の空/始まりは君の空.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "だから僕らは鳴らすんだ！",
+            "file": "START!! True dreams/だから僕らは鳴らすんだ！.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "Dreaming Energy",
+            "file": "始まりは君の空/Dreaming Energy.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "Dancing Heart La-Pa-Pa-Pa!",
+            "file": "始まりは君の空/Dancing Heart La-Pa-Pa-Pa!.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "Hoshizora Monologue",
+            "file": "电视动画第二季BD特装限定版特典曲/Hoshizora Monologue.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "ユニゾン",
+            "file": "What a Wonderful Dream!!/ユニゾン.ass",
+            "animationTime": {
+                "in": 500,
+                "out": 400
+            }
+        },
+        {
+            "name": "未来の音が聴こえる",
+            "file": "Sing！Shine！Smile！／未来の音が聴こえる/未来の音が聴こえる.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "形のない心と心 名前呼びあうように",
+            "file": "Sing！Shine！Smile！／未来の音が聴こえる/名前呼びあうように.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "この街でいまキミと",
+            "file": "未来は風のように/この街でいまキミと.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "スター宣言",
+            "file": "WE WILL!!/スター宣言.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "WE WILL!!",
+            "file": "WE WILL!!/WE WILL!!.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "追いかける夢の先で",
+            "file": "追いかける夢の先で/追いかける夢の先で.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "水しぶきのサイン",
+            "file": "追いかける夢の先で/水しぶきのサイン.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Go!! リスタート",
+            "file": "Welcome to 僕らのセカイ／Go!! リスタート/Go!! リスタート.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Dream Rainbow",
+            "file": "ノンフィクション!!／Starlight Prologue/Dream Rainbow.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "未来予報ハレルヤ！",
+            "file": "未来予報ハレルヤ！／Tiny Stars/未来予報ハレルヤ！.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Shooting Voice!!",
+            "file": "not ALONE not HITORI／ミラクル STAY TUNE！／Shooting Voice!!/Shooting Voice!!.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Second Sparkle",
+            "file": "Second Sparkle/Second Sparkle.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "キラーキューン☆",
+            "file": "MIRACLE NEW STORY/キラーキューン☆.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -484,7 +604,7 @@
         },
         {
             "name": "ビタミンSUMMER！",
-            "file": "ビタミンSUMMER！.ass",
+            "file": "ビタミンSUMMER！／Chance Day, Chance Way！/ビタミンSUMMER！.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -492,7 +612,7 @@
         },
         {
             "name": "Chance Day, Chance Way！",
-            "file": "Chance Day, Chance Way！.ass",
+            "file": "ビタミンSUMMER！／Chance Day, Chance Way！/Chance Day, Chance Way！.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -500,31 +620,31 @@
         },
         {
             "name": "ユートピアマジック",
-            "file": "ユートピアマジック.ass",
+            "file": "ビタミンSUMMER！／Chance Day, Chance Way！/ユートピアマジック.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "KALEI Prime Adventure",
-            "file": "Prime Adventure KALEI.ass",
+            "name": "【KALEIDOSCORE】プライム・アドベンチャー",
+            "file": "リエラのうた2/プライム・アドベンチャー KALEIDOSCORE.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Kale】幕间动画",
-            "file": "kale 幕间动画.ass",
+            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Kale】幕间动画 Day2",
-            "file": "kale 幕间动画 Day2.ass",
+            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -532,7 +652,7 @@
         },
         {
             "name": "【Keke】心跳在跃动",
-            "file": "Oh！Ready Steady Positive.ass",
+            "file": "电视动画第一季BD特装限定版特典曲/Oh！レディ・ステディ・ポジティブ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -540,7 +660,7 @@
         },
         {
             "name": "【Keke】水色のSunday",
-            "file": "水色のSunday.ass",
+            "file": "What a Wonderful Dream!!/水色のSunday.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -548,7 +668,7 @@
         },
         {
             "name": "【Keke】星屑クルージング",
-            "file": "星屑クルージング.ass",
+            "file": "Second Sparkle/星屑クルージング.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -556,7 +676,7 @@
         },
         {
             "name": "【Ren】リバーブ",
-            "file": "リバーブ.ass",
+            "file": "电视动画第一季BD特装限定版特典曲/リバーブ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -564,7 +684,7 @@
         },
         {
             "name": "【Ren】微熱のワルツ",
-            "file": "微熱のワルツ.ass",
+            "file": "What a Wonderful Dream!!/微熱のワルツ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -572,7 +692,7 @@
         },
         {
             "name": "【Ren】Midnight Rhapsody",
-            "file": "Midnight Rhapsody.ass",
+            "file": "Second Sparkle/ミッドナイトラプソディ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -580,7 +700,7 @@
         },
         {
             "name": "【Margarete】Butterfly Wing",
-            "file": "Butterfly Wing.ass",
+            "file": "Butterfly Wing／エーデルシュタイン/Butterfly Wing.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -588,7 +708,7 @@
         },
         {
             "name": "【Margarete】Edelstein",
-            "file": "Edelstein.ass",
+            "file": "Butterfly Wing／エーデルシュタイン/エーデルシュタイン.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -596,7 +716,7 @@
         },
         {
             "name": "不可視なブルー",
-            "file": "不可視なブルー.ass",
+            "file": "Jump Into the New World/不可視なブルー.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -604,7 +724,7 @@
         },
         {
             "name": "ベロア",
-            "file": "ベロア.ass",
+            "file": "Jump Into the New World/ベロア.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -612,7 +732,7 @@
         },
         {
             "name": "カメリアの囁き",
-            "file": "カメリアの囁き.ass",
+            "file": "ニュートラル/カメリアの囁き.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -620,7 +740,7 @@
         },
         {
             "name": "ニュートラル",
-            "file": "ニュートラル.ass",
+            "file": "ニュートラル/ニュートラル.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -628,31 +748,31 @@
         },
         {
             "name": "色づいて透明",
-            "file": "色づいて透明.ass",
+            "file": "Welcome to 僕らのセカイ／Go!! リスタート/色づいて透明.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "CatChu! Prime Adventure",
-            "file": "Prime Adventure.ass",
+            "name": "【CatChu!】プライム・アドベンチャー",
+            "file": "リエラのうた2/プライム・アドベンチャー CatChu!.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "CatChu! 幕间动画",
-            "file": "幕间动画.ass",
+            "name": "CatChu! Live&FMT 爱知 幕间动画 Day1",
+            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day1.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "CatChu! 幕间动画Day2",
-            "file": "幕间动画Day2.ass",
+            "name": "CatChu! Live&FMT 爱知 幕间动画 Day2",
+            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day2.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -660,7 +780,7 @@
         },
         {
             "name": "【Sumire】ヒロインズ☆ランウェイ",
-            "file": "ヒロインズ☆ランウェイ.ass",
+            "file": "电视动画第一季BD特装限定版特典曲/ヒロインズ☆ランウェイ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -668,7 +788,7 @@
         },
         {
             "name": "【Sumire】みてろ！",
-            "file": "みてろ！.ass",
+            "file": "What a Wonderful Dream!!/みてろ！.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -676,7 +796,7 @@
         },
         {
             "name": "【Sumire】Starry Prayer",
-            "file": "Starry Prayer.ass",
+            "file": "Second Sparkle/Starry Prayer.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -684,7 +804,7 @@
         },
         {
             "name": "【Mei】茜心",
-            "file": "茜心.ass",
+            "file": "Second Sparkle/茜心.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -692,7 +812,7 @@
         },
         {
             "name": "【Kanon】青空を待ってる",
-            "file": "青空を待ってる.ass",
+            "file": "What a Wonderful Dream!!/青空を待ってる.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -700,7 +820,7 @@
         },
         {
             "name": "【Kanon】心キラララ",
-            "file": "心キラララ.ass",
+            "file": "电视动画第一季BD特装限定版特典曲/心キラララ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -708,7 +828,7 @@
         },
         {
             "name": "【Kanon】GOING UP",
-            "file": "GOING UP.ass",
+            "file": "未来予報ハレルヤ！／Tiny Stars/GOING UP.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -716,7 +836,7 @@
         },
         {
             "name": "【Kanon】Free Flight",
-            "file": "Free Flight.ass",
+            "file": "Second Sparkle/Free Flight.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -724,7 +844,7 @@
         },
         {
             "name": "全力Riot",
-            "file": "全力Riot.ass",
+            "file": "ディストーション/全力ライオット.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -732,7 +852,7 @@
         },
         {
             "name": "オルタネイト",
-            "file": "オルタネイト.ass",
+            "file": "Jump Into the New World/オルタネイト.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -740,7 +860,7 @@
         },
         {
             "name": "揺らぐわ",
-            "file": "揺らぐわ.ass",
+            "file": "Welcome to 僕らのセカイ／Go!! リスタート/揺らぐわ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -748,7 +868,7 @@
         },
         {
             "name": "影遊び",
-            "file": "影遊び.ass",
+            "file": "Jump Into the New World/影遊び.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -756,7 +876,7 @@
         },
         {
             "name": "Distortion",
-            "file": "Distortion.ass",
+            "file": "ディストーション/ディストーション.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
