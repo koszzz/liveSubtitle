@@ -15,7 +15,8 @@
         "华康翩翩体W5 & 华康翩翩体W5P.ttc",
         "FOT-KafuTechnoStd-U.otf",
         "方正粗活意_GBK.ttf",
-        "FOT-SkipStd-B.otf"
+        "FOT-SkipStd-B.otf",
+        "NotoSansSC-Bold.ttf"
     ],
     "configs": [
         {
@@ -27,144 +28,144 @@
             }
         },
         {
-            "name": "【CatChu!】プライム・アドベンチャー",
-            "file": "リエラのうた2/プライム・アドベンチャー CatChu!.ass",
+            "name": "【KALEIDOSCORE】プライム・アドベンチャー",
+            "file": "リエラのうた2/プライム・アドベンチャー KALEIDOSCORE.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "CatChu! Live&FMT 爱知 幕间动画 Day1",
-            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day1.ass",
+            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "CatChu! Live&FMT 爱知 幕间动画 Day2",
-            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day2.ass",
+            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "CatChu! Live&FMT 宫城 幕间动画 Day1",
-            "file": "幕间动画/CatChu! Live&FMT 宫城 幕间动画 Day1.ass",
+            "name": "KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day1",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day1.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Sumire】ヒロインズ☆ランウェイ",
-            "file": "电视动画第一季BD特装限定版特典曲/ヒロインズ☆ランウェイ.ass",
+            "name": "KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day2",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day2.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Sumire】みてろ！",
-            "file": "What a Wonderful Dream!!/みてろ！.ass",
+            "name": "【Keke】心跳在跃动",
+            "file": "电视动画第一季BD特装限定版特典曲/Oh！レディ・ステディ・ポジティブ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Sumire】Starry Prayer",
-            "file": "Second Sparkle/Starry Prayer.ass",
+            "name": "【Keke】水色のSunday",
+            "file": "What a Wonderful Dream!!/水色のSunday.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Mei】茜心",
-            "file": "Second Sparkle/茜心.ass",
+            "name": "【Keke】星屑クルージング",
+            "file": "Second Sparkle/星屑クルージング.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Kanon】青空を待ってる",
-            "file": "What a Wonderful Dream!!/青空を待ってる.ass",
+            "name": "【Ren】リバーブ",
+            "file": "电视动画第一季BD特装限定版特典曲/リバーブ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Kanon】心キラララ",
-            "file": "电视动画第一季BD特装限定版特典曲/心キラララ.ass",
+            "name": "【Ren】微熱のワルツ",
+            "file": "What a Wonderful Dream!!/微熱のワルツ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Kanon】GOING UP",
-            "file": "未来予報ハレルヤ！／Tiny Stars/GOING UP.ass",
+            "name": "【Ren】Midnight Rhapsody",
+            "file": "Second Sparkle/ミッドナイトラプソディ.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "【Kanon】Free Flight",
-            "file": "Second Sparkle/Free Flight.ass",
+            "name": "【Margarete】Butterfly Wing",
+            "file": "Butterfly Wing／エーデルシュタイン/Butterfly Wing.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "全力Riot",
-            "file": "ディストーション/全力ライオット.ass",
+            "name": "【Margarete】Edelstein",
+            "file": "Butterfly Wing／エーデルシュタイン/エーデルシュタイン.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "オルタネイト",
-            "file": "Jump Into the New World/オルタネイト.ass",
+            "name": "不可視なブルー",
+            "file": "Jump Into the New World/不可視なブルー.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "揺らぐわ",
-            "file": "Welcome to 僕らのセカイ／Go!! リスタート/揺らぐわ.ass",
+            "name": "ベロア",
+            "file": "Jump Into the New World/ベロア.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "TO BE CONTINUED",
-            "file": "Sing！Shine！Smile！／未来の音が聴こえる/TO BE CONTINUED.ass",
+            "name": "カメリアの囁き",
+            "file": "ニュートラル/カメリアの囁き.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "影遊び",
-            "file": "Jump Into the New World/影遊び.ass",
+            "name": "ニュートラル",
+            "file": "ニュートラル/ニュートラル.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "Distortion",
-            "file": "ディストーション/ディストーション.ass",
+            "name": "Day1",
+            "file": "ノンフィクション!!／Starlight Prologue/Day1.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -392,14 +393,6 @@
             "animationTime": {
                 "in": 800,
                 "out": 400
-            }
-        },
-        {
-            "name": "Day1",
-            "file": "ノンフィクション!!／Starlight Prologue/Day1.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
             }
         },
         {
@@ -659,128 +652,152 @@
             }
         },
         {
-            "name": "【KALEIDOSCORE】プライム・アドベンチャー",
-            "file": "リエラのうた2/プライム・アドベンチャー KALEIDOSCORE.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1",
-            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2",
-            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "【Keke】心跳在跃动",
-            "file": "电视动画第一季BD特装限定版特典曲/Oh！レディ・ステディ・ポジティブ.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "【Keke】水色のSunday",
-            "file": "What a Wonderful Dream!!/水色のSunday.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "【Keke】星屑クルージング",
-            "file": "Second Sparkle/星屑クルージング.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "【Ren】リバーブ",
-            "file": "电视动画第一季BD特装限定版特典曲/リバーブ.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "【Ren】微熱のワルツ",
-            "file": "What a Wonderful Dream!!/微熱のワルツ.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "【Ren】Midnight Rhapsody",
-            "file": "Second Sparkle/ミッドナイトラプソディ.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "【Margarete】Butterfly Wing",
-            "file": "Butterfly Wing／エーデルシュタイン/Butterfly Wing.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "【Margarete】Edelstein",
-            "file": "Butterfly Wing／エーデルシュタイン/エーデルシュタイン.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "不可視なブルー",
-            "file": "Jump Into the New World/不可視なブルー.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "ベロア",
-            "file": "Jump Into the New World/ベロア.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "カメリアの囁き",
-            "file": "ニュートラル/カメリアの囁き.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "ニュートラル",
-            "file": "ニュートラル/ニュートラル.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
             "name": "色づいて透明",
             "file": "Welcome to 僕らのセカイ／Go!! リスタート/色づいて透明.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【CatChu!】プライム・アドベンチャー",
+            "file": "リエラのうた2/プライム・アドベンチャー CatChu!.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "CatChu! Live&FMT 爱知 幕间动画 Day1",
+            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day1.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "CatChu! Live&FMT 爱知 幕间动画 Day2",
+            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day2.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "CatChu! Live&FMT 宫城 幕间动画 Day1",
+            "file": "幕间动画/CatChu! Live&FMT 宫城 幕间动画 Day1.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Sumire】ヒロインズ☆ランウェイ",
+            "file": "电视动画第一季BD特装限定版特典曲/ヒロインズ☆ランウェイ.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Sumire】みてろ！",
+            "file": "What a Wonderful Dream!!/みてろ！.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Sumire】Starry Prayer",
+            "file": "Second Sparkle/Starry Prayer.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Mei】茜心",
+            "file": "Second Sparkle/茜心.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Kanon】青空を待ってる",
+            "file": "What a Wonderful Dream!!/青空を待ってる.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Kanon】心キラララ",
+            "file": "电视动画第一季BD特装限定版特典曲/心キラララ.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Kanon】GOING UP",
+            "file": "未来予報ハレルヤ！／Tiny Stars/GOING UP.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "【Kanon】Free Flight",
+            "file": "Second Sparkle/Free Flight.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "全力Riot",
+            "file": "ディストーション/全力ライオット.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "オルタネイト",
+            "file": "Jump Into the New World/オルタネイト.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "揺らぐわ",
+            "file": "Welcome to 僕らのセカイ／Go!! リスタート/揺らぐわ.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "TO BE CONTINUED",
+            "file": "Sing！Shine！Smile！／未来の音が聴こえる/TO BE CONTINUED.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "影遊び",
+            "file": "Jump Into the New World/影遊び.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "Distortion",
+            "file": "ディストーション/ディストーション.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
