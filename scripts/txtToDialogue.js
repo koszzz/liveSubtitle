@@ -79,16 +79,15 @@ Style: 中文-Tomari,FZFW ZhuZi A YuanS,54,&H00FFFFFF,&H000000FF,&H00E2D24C,&H00
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n`
     for (let i = 0; i < arr.length; i += 2) {
-        const tags = `{\\fad(200,200)}`
-        const zh = tags+arr[i];
-        const ja = tags+arr[i + 1];
+        const zh = arr[i];
+        const ja = arr[i + 1];
         let add = 0;
         // if (i / 2 > 0) {
         //     add = (i / 2) * 30;
         // }
         const inTime = secondsToTime((i / 2) * eachTime + add);
         const outTime = secondsToTime((i / 2 + 1) * eachTime + add);
-        result += `Dialogue: 0,${inTime},${outTime},日文-,,0,0,0,,${zh}\nDialogue: 0,${inTime},${outTime},中文-,,0,0,0,,${ja}\n`;
+        result += `Dialogue: 0,${inTime},${outTime},日文-Rana,,0,0,0,,{\\fad(200,200)}${ja}\nDialogue: 0,${inTime},${outTime},中文-Rana,,0,0,0,,{\\fad(200,200)}${zh}\n`;
     }
     return result;
 }

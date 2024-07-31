@@ -20,6 +20,20 @@
     ],
     "configs": [
         {
+            "name": "無路矢",
+            "file": "测试/無路矢/無路矢Tomori.ass",
+            "file2": "测试/無路矢/無路矢Rana.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            },
+            "animationTime2": {
+                "in": 200,
+                "out": 200
+            },
+            "note": "無路矢/無路矢.txt"
+        },
+        {
             "name": "未来は風のように",
             "file": "未来は風のように/未来は風のように.ass",
             "animationTime": {
@@ -431,8 +445,8 @@
             "name": "シェキラ☆☆☆",
             "file": "シェキラ☆☆☆/シェキラ☆☆☆.ass",
             "animationTime": {
-                "in": 500,
-                "out": 400
+                "in": 200,
+                "out": 200
             }
         },
         {

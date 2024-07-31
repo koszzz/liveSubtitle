@@ -33,6 +33,11 @@
             .list-group-item:not(.active) {
                 cursor: pointer;
             }
+
+            .note {
+                overflow-wrap: break-word;
+                width: 300px;
+            }
         </style>
     </head>
     <body>
@@ -49,29 +54,30 @@
                 </ul>
                 <div style="margin-top: 10px; display: flex; gap: 10px">
                     <button type="button" class="btn btn-primary" @click="next">
-                        下一句<br>（键盘下键）
+                        下一句<br />（键盘下键）
                     </button>
                     <button type="button" class="btn btn-primary" @click="hide">
-                        隐藏<br>（键盘左键）
+                        隐藏<br />（键盘左键）
                     </button>
                     <button type="button" class="btn btn-primary" @click="to">
-                        上一句<br>（键盘上键）
+                        上一句<br />（键盘上键）
                     </button>
                 </div>
             </div>
-            <div></div>
+            <div class="note" v-html="note"></div>
         </div>
         <script>
             const socket = io();
 
             const { createApp, ref } = Vue;
             const index = ref(0);
-            const lyricIndex = ref(-1);
+            let lyricIndex = [-1, -1];
             const config = ref([
                 {
                     name: "123",
                 },
             ]);
+            const note = ref("这里是Note");
             const setSubtitle = (e) => {
                 const _index = +e.target.dataset.index;
                 if (_index == index.value) {
@@ -79,25 +85,43 @@
                 }
                 socket.emit("set", { subtitleIndex: _index });
                 index.value = _index;
-                lyricIndex.value = 0;
+                lyricIndex = [0, 0];
+                getNote()
             };
-            const next = (e) => {
-                socket.emit("set", { step: "next" });
-                lyricIndex.value = lyricIndex.value + 1;
+            const next = (track) => {
+                socket.emit("set", { step: "next", track });
+                lyricIndex[track] = lyricIndex[track] + 1;
             };
-            const hide = (e) => {
-                socket.emit("set", { step: "hide" });
+            const hide = (track) => {
+                socket.emit("set", { step: "hide", track });
             };
-            const to = (e) => {
-                if (lyricIndex.value > 1 - 1) {
+            const to = (track) => {
+                if (lyricIndex[track] > 1 - 1) {
                     socket.emit("set", {
                         step: "to",
-                        index: lyricIndex.value - 1,
+                        index: lyricIndex[track] - 1,
+                        track,
                     });
-                    lyricIndex.value = lyricIndex.value - 1;
+                    lyricIndex[track] = lyricIndex[track] - 1;
                 } else {
                     hide();
                 }
+            };
+
+            const getNote = () => {
+                if(!config.value[index.value]?.note){
+                    note.value=""
+                    return;
+                }
+                fetch(
+                    "./assets/subtitles/note/" + config.value[index.value].note
+                )
+                    .then((data) => data.text())
+                    .then((data) => {
+                        note.value = data.replaceAll('\n', '<br />');
+                    }).catch((e)=>{
+                        note.value=""
+                    });
             };
 
             document.onkeydown = (e) => {
@@ -106,24 +130,25 @@
                     event ||
                     window.event ||
                     arguments.callee.caller.arguments[0];
-                if (e1 && e1.keyCode == 40) {
-                    // 按下方向下键
+                if (e1 && (e1.keyCode == 40 || e1.key == "s")) {
+                    // 按下方向下键或s键
                     e1.preventDefault();
-                    next();
-                } else if (e1 && e1.keyCode == 37) {
+                    next(e1.key == "s" ? 1 : 0);
+                } else if (e1 && (e1.keyCode == 37 || e1.key == "a")) {
                     e1.preventDefault();
-                    // 按下方向左键
-                    hide();
-                } else if (e1 && e1.keyCode == 38) {
+                    // 按下方向左键或a键
+                    hide(e1.key == "a" ? 1 : 0);
+                } else if (e1 && (e1.keyCode == 38 || e1.key == "w")) {
                     // 按下方向上键
                     e1.preventDefault();
-                    to();
+                    to(e1.key == "w" ? 1 : 0);
                 }
             };
             fetch("./assets/subtitles/config.json")
                 .then((data) => data.json())
                 .then((data) => {
                     config.value = data.configs;
+                    getNote();
                 });
             createApp({
                 setup() {
@@ -134,7 +159,7 @@
                         next,
                         hide,
                         to,
-                        lyricIndex,
+                        note,
                     };
                 },
             }).mount("#app");

@@ -7,55 +7,70 @@
         <script src="./assets/js/subtitles-octopus/subtitles-octopus.js"></script>
         <script src="https://cdn.socket.io/4.7.3/socket.io.min.js"></script>
         <style>
-            #debugText {
+            .debug {
                 position: absolute;
-                top: 10px;
                 left: 10px;
                 font-size: xx-large;
                 color: blue;
                 display: none;
             }
+            body {
+                margin: 0;
+                padding: 0;
+                position: relative;
+            }
+
+            canvas {
+                position: absolute;
+            }
         </style>
     </head>
     <body>
-        <canvas id="test" width="1920" height="1080"></canvas>
-        <div id="debugText"></div>
+        <canvas id="track1" width="1920" height="1080"></canvas>
+        <canvas id="track2" width="1920" height="1080"></canvas>
+        <div id="debugText" class="debug" style="top: 10px"></div>
+        <div id="debugText2" class="debug" style="top: 50px"></div>
         <script>
-            let time = 0;
-            let hide = true;
-            let animationTime;
-            let eachTime;
-            let index;
+            let time = [0, 0]; // 当前时间
+            let hide = [true, true]; // 是否隐藏中
+            let animationTime = []; // config里的动画时间
+            let eachTime = []; // 每句字幕的时间
+            let index = []; // 当前字幕index
 
-            let configs = {};
-            let fonts = [];
-            let subtitleIndex = 0;
+            let configs = {}; // 配置信息
+            let fonts = []; // 字体信息
+            let subtitleIndex = 0; // 当前是第几个字幕
 
-            async function toTime(targetTime) {
+            async function toTime(targetTime, track = 0) {
                 return new Promise((resolve, reject) => {
                     let basicTime = new Date().getTime();
                     function tick() {
                         const elapsed = Math.floor(
                             Math.min(
                                 Math.abs(new Date().getTime() - basicTime),
-                                Math.abs(targetTime - time)
+                                Math.abs(targetTime - time[track])
                             )
                         );
-                        console.log(elapsed);
                         basicTime = new Date().getTime();
-                        time += targetTime - time > 0 ? elapsed : -elapsed;
-                        window.octopusInstance.setCurrentTime(time / 1000);
+                        time[track] +=
+                            targetTime - time[track] > 0 ? elapsed : -elapsed;
+                        window.octopusInstance[track].setCurrentTime(
+                            time[track] / 1000
+                        );
                         document.getElementById(
                             "debugText"
-                        ).innerHTML = `time: ${time / 1000}`;
-                        const difference = Math.abs(targetTime - time);
+                        ).innerHTML = `track1: ${time[0] / 1000}`;
+                        document.getElementById(
+                            "debugText2"
+                        ).innerHTML = `track2: ${time[1] / 1000}`;
+                        const difference = Math.abs(targetTime - time[track]);
                         if (difference > 0) {
                             requestAnimationFrame(tick);
                         } else {
                             resolve();
                         }
                     }
-                    const difference = Math.abs(targetTime - time);
+                    const difference = Math.abs(targetTime - time[track]);
                     if (difference > 0) {
                         requestAnimationFrame(tick);
                     }
@@ -70,8 +85,9 @@
                 })
                 .then(() => {
                     init();
-                    const options = {
-                        canvas: document.getElementById("test"),
+                    window.octopusInstance = [];
+                    const optionsTrack1 = {
+                        canvas: document.getElementById("track1"),
                         subUrl:
                             "/assets/subtitles/" + configs[subtitleIndex].file,
                         fonts: fonts.map((i) => "/assets/fonts/" + i),
@@ -79,42 +95,65 @@
                             "./assets/js/subtitles-octopus/subtitles-octopus-worker.js",
                         debug: true,
                     };
-                    window.octopusInstance = new SubtitlesOctopus(options);
-                    window.octopusInstance.setCurrentTime(time / 1000);
+                    const optionsTrack2 = {
+                        canvas: document.getElementById("track2"),
+                        subUrl:
+                            "/assets/subtitles/" + configs[subtitleIndex].file2,
+                        fonts: fonts.map((i) => "/assets/fonts/" + i),
+                        workerUrl:
+                            "./assets/js/subtitles-octopus/subtitles-octopus-worker.js",
+                        debug: true,
+                    };
+                    window.octopusInstance[0] = new SubtitlesOctopus(
+                        optionsTrack1
+                    );
+                    window.octopusInstance[0].setCurrentTime(time[0] / 1000);
+                    window.octopusInstance[1] = new SubtitlesOctopus(
+                        optionsTrack2
+                    );
+                    window.octopusInstance[1].setCurrentTime(time[1] / 1000);
                 });
 
             function init() {
-                animationTime = configs[subtitleIndex].animationTime;
-                eachTime = animationTime.in + animationTime.out;
-                index = -1;
-                hide = true;
-                time = 0;
+                animationTime[0] = configs[subtitleIndex].animationTime;
+                animationTime[1] = configs[subtitleIndex].animationTime2;
+                eachTime[0] = animationTime[0].in + animationTime[0].out;
+                eachTime[1] =
+                    (animationTime[1]?.in ?? 0) + (animationTime[1]?.out ?? 0);
+                index = [-1, -1];
+                hide = [true, true];
+                time = [0, 0];
             }
 
-            async function next() {
-                await goin(index + 1);
-                hide = false;
-                return index;
+            async function next(track = 0) {
+                await goin(index[track] + 1, track);
+                hide[track] = false;
+                return index[track];
             }
 
-            async function goin(_index) {
-                if (_index > 0 && !hide) {
-                    await _hide(index);
+            async function goin(_index, track = 0) {
+                if (_index > 0 && !hide[track]) {
+                    await _hide(track);
                 }
-                index = _index;
-                time = _index * eachTime;
-                toTime(_index * eachTime + animationTime.in);
+                index[track] = _index;
+                console.log(index);
+                time[track] = _index * eachTime[track];
+                toTime(
+                    _index * eachTime[track] + animationTime[track].in,
+                    track
+                );
             }
 
-            async function _hide() {
-                if (hide) {
-                    goin(index);
-                    hide = false;
+            async function _hide(track) {
+                if (hide[track]) {
+                    goin(index[track], track);
+                    hide[track] = false;
                     return;
                 }
-                time = index * eachTime + animationTime.in;
-                await toTime((index + 1) * eachTime);
-                hide = true;
+                time[track] =
+                    index[track] * eachTime[track] + animationTime[track].in;
+                await toTime((index[track] + 1) * eachTime[track], track);
+                hide[track] = true;
             }
 
             const socket = io();
@@ -125,19 +164,23 @@
                 ) {
                     subtitleIndex = settings.subtitleIndex;
                     init();
-                    window.octopusInstance.setCurrentTime(0);
-                    window.octopusInstance.setTrackByUrl(
+                    window.octopusInstance[0].setCurrentTime(0);
+                    window.octopusInstance[0].setTrackByUrl(
                         "/assets/subtitles/" + configs[subtitleIndex].file
+                    );
+                    window.octopusInstance[1].setCurrentTime(0);
+                    window.octopusInstance[1].setTrackByUrl(
+                        "/assets/subtitles/" + configs[subtitleIndex].file2
                     );
                     return;
                 }
                 if (settings.step == "next") {
-                    next();
+                    next(settings.track);
                 } else if (settings.step == "hide") {
-                    _hide();
+                    _hide(settings.track);
                 } else if (settings.step == "to") {
-                    await goin(settings.index);
-                    hide = false;
+                    await goin(settings.index, settings.track);
+                    hide[settings.track] = false;
                 }
             });
         </script>
