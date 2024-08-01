@@ -20,22 +20,24 @@
     ],
     "configs": [
         {
-            "name": "無路矢",
-            "file": "测试/無路矢/無路矢Tomori.ass",
-            "file2": "测试/無路矢/無路矢Rana.ass",
+            "name": "未来は風のように",
+            "file": "未来は風のように/未来は風のように.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
-            },
-            "animationTime2": {
-                "in": 200,
-                "out": 200
-            },
-            "note": "無路矢/無路矢.txt"
+            }
         },
         {
-            "name": "未来は風のように",
-            "file": "未来は風のように/未来は風のように.ass",
+            "name": "アイコトバ！",
+            "file": "ラブライブ！スーパースター!! Liella! CLUB CD SET 2024/アイコトバ！.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "プライム・アドベンチャー",
+            "file": "リエラのうた2/プライム・アドベンチャー.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -50,32 +52,16 @@
             }
         },
         {
-            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1",
-            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1.ass",
+            "name": "【CatChu!】プライム・アドベンチャー",
+            "file": "リエラのうた2/プライム・アドベンチャー CatChu!.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
             }
         },
         {
-            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2",
-            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day1",
-            "file": "幕间动画/KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day1.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day2",
-            "file": "幕间动画/KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day2.ass",
+            "name": "【5yncri5e!】プライム・アドベンチャー",
+            "file": "リエラのうた2/プライム・アドベンチャー 5yncri5e!.ass",
             "animationTime": {
                 "in": 200,
                 "out": 200
@@ -493,8 +479,8 @@
             "name": "始まりは君の空",
             "file": "始まりは君の空/始まりは君の空.ass",
             "animationTime": {
-                "in": 500,
-                "out": 400
+                "in": 200,
+                "out": 200
             }
         },
         {
@@ -674,38 +660,6 @@
             }
         },
         {
-            "name": "【CatChu!】プライム・アドベンチャー",
-            "file": "リエラのうた2/プライム・アドベンチャー CatChu!.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "CatChu! Live&FMT 爱知 幕间动画 Day1",
-            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day1.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "CatChu! Live&FMT 爱知 幕间动画 Day2",
-            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day2.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "CatChu! Live&FMT 宫城 幕间动画 Day1",
-            "file": "幕间动画/CatChu! Live&FMT 宫城 幕间动画 Day1.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
             "name": "【Sumire】ヒロインズ☆ランウェイ",
             "file": "电视动画第一季BD特装限定版特典曲/ヒロインズ☆ランウェイ.ass",
             "animationTime": {
@@ -818,30 +772,6 @@
             }
         },
         {
-            "name": "【5yncri5e!】プライム・アドベンチャー",
-            "file": "リエラのうた2/プライム・アドベンチャー 5yncri5e!.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "5yncri5e! Live&FMT 大阪 幕间动画 Day1",
-            "file": "幕间动画/5yncri5e! Live&FMT 大阪 幕间动画 Day1.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
-            "name": "5yncri5e! Live&FMT 大阪 幕间动画 Day2",
-            "file": "幕间动画/5yncri5e! Live&FMT 大阪 幕间动画 Day2.ass",
-            "animationTime": {
-                "in": 200,
-                "out": 200
-            }
-        },
-        {
             "name": "【Chisato】勇気のカケラ",
             "file": "电视动画第一季BD特装限定版特典曲/勇気のカケラ.ass",
             "animationTime": {
@@ -928,6 +858,92 @@
                 "in": 200,
                 "out": 200
             }
+        },
+        {
+            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day1.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 新潟 幕间动画 Day2.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day1",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day1.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day2",
+            "file": "幕间动画/KALEIDOSCORE Live&FMT 埼玉 幕间动画 Day2.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "5yncri5e! Live&FMT 大阪 幕间动画 Day1",
+            "file": "幕间动画/5yncri5e! Live&FMT 大阪 幕间动画 Day1.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "5yncri5e! Live&FMT 大阪 幕间动画 Day2",
+            "file": "幕间动画/5yncri5e! Live&FMT 大阪 幕间动画 Day2.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "CatChu! Live&FMT 爱知 幕间动画 Day1",
+            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day1.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "CatChu! Live&FMT 爱知 幕间动画 Day2",
+            "file": "幕间动画/CatChu! Live&FMT 爱知 幕间动画 Day2.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "CatChu! Live&FMT 宫城 幕间动画 Day1",
+            "file": "幕间动画/CatChu! Live&FMT 宫城 幕间动画 Day1.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            }
+        },
+        {
+            "name": "無路矢",
+            "file": "测试/無路矢/無路矢Tomori.ass",
+            "file2": "测试/無路矢/無路矢Rana.ass",
+            "animationTime": {
+                "in": 200,
+                "out": 200
+            },
+            "animationTime2": {
+                "in": 200,
+                "out": 200
+            },
+            "note": "無路矢/無路矢.txt"
         }
     ]
 }
