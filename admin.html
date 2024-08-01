@@ -36,7 +36,14 @@
 
             .note {
                 overflow-wrap: break-word;
-                width: 300px;
+                line-height: 30px;
+                width: 200px; /* 调整提示框宽度 */
+                margin-left: auto;
+                position: fixed;
+                top: 0;
+                right: 0;
+                height: 100vh;
+                overflow-y: auto;
             }
         </style>
     </head>
@@ -86,7 +93,7 @@
                 socket.emit("set", { subtitleIndex: _index });
                 index.value = _index;
                 lyricIndex = [0, 0];
-                getNote()
+                getNote();
             };
             const next = (track) => {
                 socket.emit("set", { step: "next", track });
@@ -109,8 +116,8 @@
             };
 
             const getNote = () => {
-                if(!config.value[index.value]?.note){
-                    note.value=""
+                if (!config.value[index.value]?.note) {
+                    note.value = "";
                     return;
                 }
                 fetch(
@@ -118,9 +125,10 @@
                 )
                     .then((data) => data.text())
                     .then((data) => {
-                        note.value = data.replaceAll('\n', '<br />');
-                    }).catch((e)=>{
-                        note.value=""
+                        note.value = data.replaceAll("\n", "<br />");
+                    })
+                    .catch((e) => {
+                        note.value = "";
                     });
             };
 

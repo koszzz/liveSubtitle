@@ -132,6 +132,8 @@ node app.js
 
 #### 上传字幕
 
+> 注意，一旦其中有双轴字幕，请一定要在开头放置一个，否则将无法加载。
+
 1. 将`.ass`字幕存放于 `./assets/subtitles/`
 2. 配置`./assets/subtitles/config.json`
 
