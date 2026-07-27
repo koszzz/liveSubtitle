@@ -87,7 +87,7 @@
 
 ```sh
 # 克隆仓库
-git clone https://github.com/koszzz/liveSubtitle.git
+git clone https://github.com/LiellaGuild/liveSubtitle.git
 
 # 进入仓库
 cd liveSubtitle
@@ -168,7 +168,7 @@ node app.js
 -   每句字幕的进入与退出时间需固定
 -   每句字幕进入后需立马退出
 
-示例字幕文件见 [./assets/subtitles/](https://github.com/koszzz/liveSubtitle/tree/main/assets/subtitles)
+示例字幕文件见 [./assets/subtitles/](https://github.com/LiellaGuild/liveSubtitle/tree/main/assets/subtitles)
 
 <p align="right">(<a href="#readme-top">回到顶端</a>)</p>
 
@@ -179,7 +179,7 @@ node app.js
 -   [ ] 优化控制台 UI
 -   [ ] 适配复杂特效
 
-查看 [Open Issues](https://github.com/koszzz/liveSubtitle/issues) 获取建议和已知问题的完整列表。
+查看 [Open Issues](https://github.com/LiellaGuild/liveSubtitle/issues) 获取建议和已知问题的完整列表。
 
 <p align="right">(<a href="#readme-top">回到顶端</a>)</p>
 
@@ -213,7 +213,7 @@ node app.js
 
 ## 联系
 
-项目地址: [https://github.com/koszzz/liveSubtitle](https://github.com/koszzz/liveSubtitle)
+项目地址: [https://github.com/LiellaGuild/liveSubtitle](https://github.com/LiellaGuild/liveSubtitle)
 
 在[爱发电](https://afdian.net/a/kyruui)支持我
 
@@ -233,13 +233,13 @@ node app.js
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/koszzz/liveSubtitle.svg?style=for-the-badge
-[contributors-url]: https://github.com/koszzz/liveSubtitle/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/koszzz/liveSubtitle.svg?style=for-the-badge
-[forks-url]: https://github.com/koszzz/liveSubtitle/network/members
-[stars-shield]: https://img.shields.io/github/stars/koszzz/liveSubtitle.svg?style=for-the-badge
-[stars-url]: https://github.com/koszzz/liveSubtitle/stargazers
-[issues-shield]: https://img.shields.io/github/issues/koszzz/liveSubtitle.svg?style=for-the-badge
-[issues-url]: https://github.com/koszzz/liveSubtitle/issues
-[license-shield]: https://img.shields.io/github/license/koszzz/liveSubtitle.svg?style=for-the-badge
-[license-url]: https://github.com/koszzz/liveSubtitle/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/LiellaGuild/liveSubtitle.svg?style=for-the-badge
+[contributors-url]: https://github.com/LiellaGuild/liveSubtitle/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LiellaGuild/liveSubtitle.svg?style=for-the-badge
+[forks-url]: https://github.com/LiellaGuild/liveSubtitle/network/members
+[stars-shield]: https://img.shields.io/github/stars/LiellaGuild/liveSubtitle.svg?style=for-the-badge
+[stars-url]: https://github.com/LiellaGuild/liveSubtitle/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LiellaGuild/liveSubtitle.svg?style=for-the-badge
+[issues-url]: https://github.com/LiellaGuild/liveSubtitle/issues
+[license-shield]: https://img.shields.io/github/license/LiellaGuild/liveSubtitle.svg?style=for-the-badge
+[license-url]: https://github.com/LiellaGuild/liveSubtitle/blob/master/LICENSE
