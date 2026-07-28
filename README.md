@@ -363,7 +363,7 @@ ASS 字幕样式命名规范：
 
 ### 2. 生成 ASS 初稿
 
-将 `scripts/lyrics2ass.js` 于浏览器控制台执行，在 `const lyrics =`; `` 的反引号中粘贴 `lyrics.txt` 全文，即可获得 ASS 字幕初稿。在歌曲文件夹中创建 `subtitle.ass`，粘贴内容。
+将 `scripts/lyrics2ass.js` 于浏览器控制台执行，在 `const lyrics = ``;` 的反引号中粘贴 `lyrics.txt` 全文，即可获得 ASS 字幕初稿。在歌曲文件夹中创建 `subtitle.ass`，粘贴内容。
 
 ### 3. 分词
 
@@ -375,7 +375,7 @@ ASS 字幕样式命名规范：
 
 ### 5. 生成配置文件
 
-将 `scripts/generateConfig.js` 于浏览器控制台执行，在 `const ass =`.split("\n"); `` 的反引号中粘贴 `subtitle.ass` 中所有 `Dialogue:` 开头的行，生成 `config.txt` 内容。在歌曲文件夹中创建 `config.txt`，视情况调整轨道编号。
+将 `scripts/generateConfig.js` 于浏览器控制台执行，在 `const ass = ``.split('\n');` 的反引号中粘贴 `subtitle.ass` 中所有 `Dialogue:` 开头的行，生成 `config.txt` 内容。在歌曲文件夹中创建 `config.txt`，视情况调整轨道编号。
 
 ### 6. 添加筛选器
 
