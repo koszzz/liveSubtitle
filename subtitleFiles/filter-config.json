@@ -1,0 +1,369 @@
+[
+    {
+        "name": "1st Gen Live",
+        "type": "live",
+        "songs": [
+            "始まりは君の空",
+            "START!! True dreams",
+            "だから僕らは鳴らすんだ！",
+            "未来予報ハレルヤ 歌前动画",
+            "未来予報ハレルヤ！",
+            "幕间动画① 1st Gen Live",
+            "Tiny Stars",
+            "バイバイしちゃえば！？",
+            "常夏☆サンシャイン",
+            "幕间动画② 1st Gen Live",
+            "瞬きの先へ",
+            "瞬きの先へ 歌后动画",
+            "Wish Song",
+            "Primary",
+            "Dreaming Energy",
+            "幕间动画③ 1st Gen Live",
+            "ノンフィクション!!",
+            "Day1",
+            "Dream Rainbow",
+            "私のSymphony What a Wonderful Dream!! Ver.",
+            "幕间动画④ 1st Gen Live",
+            "Starlight Prologue",
+            "幕间动画⑤ 1st Gen Live",
+            "未来は風のように",
+            "ユニゾン",
+            "幕间动画⑥ 1st Gen Live",
+            "Shooting Voice!!",
+            "始まりは君の空",
+            "Flyer's High",
+            "青空を待ってる",
+            "みてろ！",
+            "水色のSunday",
+            "微熱のワルツ",
+            "Dancing Heart La-Pa-Pa-Pa!",
+            "What a Wonderful Dream!!",
+            "この街でいまキミと"
+        ]
+    },
+    {
+        "name": "涩谷香音",
+        "type": "solo",
+        "songs": ["心キラララ", "青空を待ってる", "Free Flight"]
+    },
+    {
+        "name": "唐可可",
+        "type": "solo",
+        "songs": [
+            "Oh！レディ・ステディ・ポジティブ",
+            "水色のSunday",
+            "星屑クルージング"
+        ]
+    },
+    {
+        "name": "岚千砂都",
+        "type": "solo",
+        "songs": ["勇気のカケラ", "Flyer's High", "君を想う花になる"]
+    },
+    {
+        "name": "平安名堇",
+        "type": "solo",
+        "songs": ["ヒロインズ☆ランウェイ", "みてろ！", "Starry Prayer"]
+    },
+    {
+        "name": "叶月恋",
+        "type": "solo",
+        "songs": ["リバーブ", "微熱のワルツ", "ミッドナイトラプソディ"]
+    },
+    {
+        "name": "樱小路希奈子",
+        "type": "solo",
+        "songs": ["ビギナーズRock!!"]
+    },
+    {
+        "name": "米女芽衣",
+        "type": "solo",
+        "songs": ["茜心"]
+    },
+    {
+        "name": "若菜四季",
+        "type": "solo",
+        "songs": ["ガラスボールリジェクション"]
+    },
+    {
+        "name": "鬼冢夏美",
+        "type": "solo",
+        "songs": ["Eyeをちょうだい"]
+    },
+    {
+        "name": "薇恩·玛格丽特",
+        "type": "solo",
+        "songs": ["Butterfly Wing", "エーデルシュタイン"]
+    },
+    {
+        "name": "CatChu!",
+        "type": "unit",
+        "songs": [
+            "オルタネイト",
+            "影遊び",
+            "ディストーション",
+            "全力ライオット",
+            "What a Wonderful Dream!! ～CatChu! Ver.～"
+        ]
+    },
+    {
+        "name": "KALEIDOSCORE",
+        "type": "unit",
+        "songs": [
+            "ベロア",
+            "不可視なブルー",
+            "ニュートラル",
+            "カメリアの囁き",
+            "What a Wonderful Dream!! ～KALEIDOSCORE Ver.～"
+        ]
+    },
+    {
+        "name": "5yncri5e!",
+        "type": "unit",
+        "songs": [
+            "Dancing Raspberry",
+            "A Little Love",
+            "Jellyfish",
+            "Thank you Good morning",
+            "What a Wonderful Dream!! ～5yncri5e! Ver.～"
+        ]
+    },
+    {
+        "name": "Sunny Passion",
+        "type": "unit",
+        "songs": ["HOT PASSION!!", "Till Sunrise"]
+    },
+    {
+        "name": "始まりは君の空",
+        "type": "album",
+        "songs": [
+            "始まりは君の空",
+            "Dancing Heart La-Pa-Pa-Pa!",
+            "Dreaming Energy",
+            "私のSymphony",
+            "私のSymphony What a Wonderful Dream!! Ver."
+        ]
+    },
+    {
+        "name": "START!! True dreams",
+        "type": "album",
+        "songs": ["START!! True dreams", "だから僕らは鳴らすんだ！"]
+    },
+    {
+        "name": "未来は風のように",
+        "type": "album",
+        "songs": ["未来は風のように", "この街でいまキミと"]
+    },
+    {
+        "name": "未来予報ハレルヤ！/Tiny Stars",
+        "type": "album",
+        "songs": ["未来予報ハレルヤ！", "Tiny Stars", "GOING UP", "1.2.3！"]
+    },
+    {
+        "name": "常夏☆サンシャイン/Wish Song",
+        "type": "album",
+        "songs": [
+            "常夏☆サンシャイン",
+            "Wish Song",
+            "バイバイしちゃえば！？",
+            "瞬きの先へ"
+        ]
+    },
+    {
+        "name": "ノンフィクション!!/Starlight Prologue",
+        "type": "album",
+        "songs": [
+            "ノンフィクション!!",
+            "Starlight Prologue",
+            "Day1",
+            "Dream Rainbow"
+        ]
+    },
+    {
+        "name": "リエラのうた",
+        "type": "album",
+        "songs": [
+            "Primary",
+            "Memories",
+            "Anniversary",
+            "Message",
+            "Ringing!",
+            "Dears",
+            "Departure"
+        ]
+    },
+    {
+        "name": "HOT PASSION!!",
+        "type": "album",
+        "songs": ["HOT PASSION!!", "Till Sunrise"]
+    },
+    {
+        "name": "动画第一季 BD 特典",
+        "type": "album",
+        "songs": [
+            "トゥ トゥ トゥ！",
+            "探して！Future",
+            "HAPPY TO DO WA！",
+            "Stella!",
+            "変わらないすべて",
+            "クレッシェンドゆ・ら"
+        ]
+    },
+    {
+        "name": "What a Wonderful Dream!!",
+        "type": "album",
+        "songs": [
+            "What a Wonderful Dream!!",
+            "水色のSunday",
+            "Flyer's High",
+            "みてろ！",
+            "微熱のワルツ",
+            "青空を待ってる",
+            "ユニゾン"
+        ]
+    },
+    {
+        "name": "WE WILL!!",
+        "type": "album",
+        "songs": ["WE WILL!!", "スター宣言"]
+    },
+    {
+        "name": "追いかける夢の先で",
+        "type": "album",
+        "songs": ["追いかける夢の先で", "水しぶきのサイン"]
+    },
+    {
+        "name": "Welcome to 僕らのセカイ / Go!! リスタート",
+        "type": "album",
+        "songs": [
+            "Welcome to 僕らのセカイ",
+            "Go!! リスタート",
+            "色づいて透明",
+            "揺らぐわ"
+        ]
+    },
+    {
+        "name": "ビタミンSUMMER！ / Chance Day, Chance Way！",
+        "type": "album",
+        "songs": [
+            "ビタミンSUMMER！",
+            "Chance Day, Chance Way！",
+            "ユートピアマジック",
+            "POP TALKING"
+        ]
+    },
+    {
+        "name": "Sing！Shine！Smile！ / 未来の音が聴こえる",
+        "type": "album",
+        "songs": [
+            "Sing！Shine！Smile！",
+            "未来の音が聴こえる",
+            "名前呼びあうように",
+            "TO BE CONTINUED"
+        ]
+    },
+    {
+        "name": "リエラのうた2",
+        "type": "album",
+        "songs": [
+            "Dreamer Coaster",
+            "エンドレスサーキット",
+            "迷宮讃歌",
+            "プライム・アドベンチャー",
+            "パレードはいつも",
+            "駆けるメリーゴーランド",
+            "Time to go"
+        ]
+    },
+    {
+        "name": "Butterfly Wing / エーデルシュタイン",
+        "type": "album",
+        "songs": ["Butterfly Wing", "エーデルシュタイン"]
+    },
+    {
+        "name": "动画第二季 BD 特典",
+        "type": "album",
+        "songs": [
+            "Hoshizora Monologue",
+            "Blooming Dance！Dance！",
+            "Including you"
+        ]
+    },
+    {
+        "name": "Second Sparkle",
+        "type": "album",
+        "songs": [
+            "Second Sparkle",
+            "ビギナーズRock!!",
+            "ミッドナイトラプソディ",
+            "星屑クルージング",
+            "君を想う花になる",
+            "茜心",
+            "ガラスボールリジェクション",
+            "Eyeをちょうだい",
+            "Starry Prayer",
+            "Free Flight",
+            "私のSymphony ～2022Ver.～"
+        ]
+    },
+    {
+        "name": "MIRACLE NEW STORY",
+        "type": "album",
+        "songs": ["MIRACLE NEW STORY", "キラーキューン☆"]
+    },
+    {
+        "name": "ラブライブ！スーパースター!! Liella! CLUB CD SET 2023",
+        "type": "album",
+        "songs": ["UNIVERSE!!"]
+    },
+    {
+        "name": "Jump Into the New World",
+        "type": "album",
+        "songs": [
+            "Jump Into the New World",
+            "オルタネイト",
+            "影遊び",
+            "ベロア",
+            "不可視なブルー",
+            "Dancing Raspberry",
+            "A Little Love"
+        ]
+    },
+    {
+        "name": "シェキラ☆☆☆",
+        "type": "album",
+        "songs": ["シェキラ☆☆☆", "FANTASTiC", "私のSymphony ～2023Ver.～"]
+    },
+    {
+        "name": "ディストーション",
+        "type": "album",
+        "songs": [
+            "ディストーション",
+            "全力ライオット",
+            "What a Wonderful Dream!! ～CatChu! Ver.～"
+        ]
+    },
+    {
+        "name":"ニュートラル",
+        "type":"album",
+        "songs":[
+            "ニュートラル",
+            "カメリアの囁き",
+            "What a Wonderful Dream!! ～KALEIDOSCORE Ver.～"
+        ]
+    },
+    {
+        "name":"Jellyfish",
+        "type":"album",
+        "songs":[
+            "Jellyfish",
+            "Thank you Good morning",
+            "What a Wonderful Dream!! ～5yncri5e! Ver.～"
+        ]
+    },
+    {
+        "name": "笑顔のPromise / スーパースター!!",
+        "type": "album",
+        "songs": ["Wish Song ～11 Ver.～"]
+    }
+]
