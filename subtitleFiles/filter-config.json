@@ -49,11 +49,7 @@
     {
         "name": "唐可可",
         "type": "solo",
-        "songs": [
-            "Oh！レディ・ステディ・ポジティブ",
-            "水色のSunday",
-            "星屑クルージング"
-        ]
+        "songs": ["Oh！レディ・ステディ・ポジティブ", "水色のSunday", "星屑クルージング"]
     },
     {
         "name": "岚千砂都",
@@ -162,35 +158,17 @@
     {
         "name": "常夏☆サンシャイン/Wish Song",
         "type": "album",
-        "songs": [
-            "常夏☆サンシャイン",
-            "Wish Song",
-            "バイバイしちゃえば！？",
-            "瞬きの先へ"
-        ]
+        "songs": ["常夏☆サンシャイン", "Wish Song", "バイバイしちゃえば！？", "瞬きの先へ"]
     },
     {
         "name": "ノンフィクション!!/Starlight Prologue",
         "type": "album",
-        "songs": [
-            "ノンフィクション!!",
-            "Starlight Prologue",
-            "Day1",
-            "Dream Rainbow"
-        ]
+        "songs": ["ノンフィクション!!", "Starlight Prologue", "Day1", "Dream Rainbow"]
     },
     {
         "name": "リエラのうた",
         "type": "album",
-        "songs": [
-            "Primary",
-            "Memories",
-            "Anniversary",
-            "Message",
-            "Ringing!",
-            "Dears",
-            "Departure"
-        ]
+        "songs": ["Primary", "Memories", "Anniversary", "Message", "Ringing!", "Dears", "Departure"]
     },
     {
         "name": "HOT PASSION!!",
@@ -235,12 +213,7 @@
     {
         "name": "Welcome to 僕らのセカイ / Go!! リスタート",
         "type": "album",
-        "songs": [
-            "Welcome to 僕らのセカイ",
-            "Go!! リスタート",
-            "色づいて透明",
-            "揺らぐわ"
-        ]
+        "songs": ["Welcome to 僕らのセカイ", "Go!! リスタート", "色づいて透明", "揺らぐわ"]
     },
     {
         "name": "ビタミンSUMMER！ / Chance Day, Chance Way！",
@@ -283,11 +256,7 @@
     {
         "name": "动画第二季 BD 特典",
         "type": "album",
-        "songs": [
-            "Hoshizora Monologue",
-            "Blooming Dance！Dance！",
-            "Including you"
-        ]
+        "songs": ["Hoshizora Monologue", "Blooming Dance！Dance！", "Including you"]
     },
     {
         "name": "Second Sparkle",
@@ -337,25 +306,21 @@
     {
         "name": "ディストーション",
         "type": "album",
-        "songs": [
-            "ディストーション",
-            "全力ライオット",
-            "What a Wonderful Dream!! ～CatChu! Ver.～"
-        ]
+        "songs": ["ディストーション", "全力ライオット", "What a Wonderful Dream!! ～CatChu! Ver.～"]
     },
     {
-        "name":"ニュートラル",
-        "type":"album",
-        "songs":[
+        "name": "ニュートラル",
+        "type": "album",
+        "songs": [
             "ニュートラル",
             "カメリアの囁き",
             "What a Wonderful Dream!! ～KALEIDOSCORE Ver.～"
         ]
     },
     {
-        "name":"Jellyfish",
-        "type":"album",
-        "songs":[
+        "name": "Jellyfish",
+        "type": "album",
+        "songs": [
             "Jellyfish",
             "Thank you Good morning",
             "What a Wonderful Dream!! ～5yncri5e! Ver.～"

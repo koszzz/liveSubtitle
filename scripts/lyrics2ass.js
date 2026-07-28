@@ -62,11 +62,11 @@ Style: 日文-f-Tomari,Tsukushi A Round Gothic,30,&H00FFFFFF,&H000000FF,&H00AEA7
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text`;
 
 const lyrics = ``;
-const arr = lyrics.split("\n").slice(4);
+const arr = lyrics.split('\n').slice(4);
 let result = head;
 for (let i = 0; i < arr.length; i += 2) {
-  const zh = arr[i];
-  const ja = arr[i + 1];
-  result += `\nDialogue: 0,0:00:00.00,0:00:00.00,中文-,,0,0,0,,{\\fad(200,200)\\pos(960,1020)}${zh}\nDialogue: 0,0:00:00.00,0:00:00.00,日文-,,0,0,0,,{\\fad(200,200)\\pos(960,1075)}${ja}`;
+    const zh = arr[i];
+    const ja = arr[i + 1];
+    result += `\nDialogue: 0,0:00:00.00,0:00:00.00,中文-,,0,0,0,,{\\fad(200,200)\\pos(960,1020)}${zh}\nDialogue: 0,0:00:00.00,0:00:00.00,日文-,,0,0,0,,{\\fad(200,200)\\pos(960,1075)}${ja}`;
 }
 result;

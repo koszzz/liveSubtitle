@@ -5,27 +5,25 @@
  * @author Kiyoshi(kiyoshi.kusunoki@gmail.com)
  */
 function main() {
-    return Array.from(document.getElementsByClassName("Lyrics_box")[0].children)
-        .filter((i) => Array.from(i.classList).includes("Lyrics_line"))
+    return Array.from(document.getElementsByClassName('Lyrics_box')[0].children)
+        .filter((i) => Array.from(i.classList).includes('Lyrics_line'))
         .map((i) => {
             const children = Array.from(i.children);
             const original = children.filter((k) =>
-                Array.from(k.classList).includes("Lyrics_original")
+                Array.from(k.classList).includes('Lyrics_original'),
             )[0];
 
             const translated = children.filter((k) =>
-                Array.from(k.classList).includes("Lyrics_translated")
+                Array.from(k.classList).includes('Lyrics_translated'),
             )[0];
             return (
                 translated.textContent +
-                "\n" +
+                '\n' +
                 original.textContent +
-                (original.textContent != original.innerText
-                    ? " // 记得注音"
-                    : "")
+                (original.textContent != original.innerText ? ' // 记得注音' : '')
             );
         })
-        .join("\n")
-        .replaceAll("\n\n", "");
+        .join('\n')
+        .replaceAll('\n\n', '');
 }
 main();
