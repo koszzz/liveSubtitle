@@ -13,7 +13,7 @@
 
 > 这是 2025 年夏天 [Liella! 频道](https://pd.qq.com/s/7nucz4r4z)对 [Liella! 1<sup>st</sup> Gen Live](https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_Generation_LoveLive!_~Wonderful_Starlines~) 进行转播时所用的实时字幕工具，在 2026 年 7 月借助 AI 进行重构与整理并开源。可能存在不合理之处，欢迎提交 Issue 和 Pull Request
 
-> 我们也提供了截至当时所制作的全部字幕文件，包括字幕稿与 ASS 字幕，均经过人工校对，可在 [subtitleFiles](https://github.com/LiellaGuild/yuigaoka-hosobu/tree/main/subtitleFiles) 中查看
+> 我们也提供了截至当时所制作的全部字幕文件，包括字幕稿与 ASS 字幕，均经过人工校对，可在 [subtitleFiles](https://github.com/LiellaGuild/liveSubtitle/tree/main/subtitleFiles) 中查看
 
 > 这个版本使用预制时间轴，在转播过程中有更好的效果。我们在 2024 年夏天开源过的版本，使用时需要人工打轴，请查看 [former](https://github.com/LiellaGuild/liveSubtitle/tree/former) 分支
 
